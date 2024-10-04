@@ -1,0 +1,14 @@
+2024-10-04 18:29:06.321+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2024-10-04 18:29:06.330+0000 INFO  Starting...
+2024-10-04 18:29:06.863+0000 INFO  This instance is ServerId{8af5f307} (8af5f307-c4e2-4185-8d61-610ca1178b9b)
+2024-10-04 18:29:07.452+0000 INFO  ======== Neo4j 5.24.1 ========
+2024-10-04 18:29:08.401+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2024-10-04 18:29:08.423+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2024-10-04 18:29:08.736+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+2024-10-04 18:29:08.737+0000 INFO  Remote interface available at http://localhost:7474/
+2024-10-04 18:29:08.739+0000 INFO  id: F9783EB41599644015043024AD2E6122BD2EC867EDF5D9208A79D1DF3343D420
+2024-10-04 18:29:08.739+0000 INFO  name: system
+2024-10-04 18:29:08.740+0000 INFO  creationDate: 2024-10-04T18:28:07.427Z
+2024-10-04 18:29:08.740+0000 INFO  Started.
+2024-10-04 18:29:48.417+0000 INFO  Neo4j Server shutdown initiated by request
+2024-10-04 18:29:48.418+0000 INFO  Stopping...
