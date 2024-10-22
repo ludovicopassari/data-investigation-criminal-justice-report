@@ -220,3 +220,5 @@
 2024-10-04 21:01:48.318+0000 INFO  name: system
 2024-10-04 21:01:48.318+0000 INFO  creationDate: 2024-10-04T19:46:10.718Z
 2024-10-04 21:01:48.318+0000 INFO  Started.
+2024-10-04 21:11:48.280+0000 INFO  Neo4j Server shutdown initiated by request
+2024-10-04 21:11:48.281+0000 INFO  Stopping...

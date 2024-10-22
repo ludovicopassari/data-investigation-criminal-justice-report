@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "evidence001",
+        "evidence_type": "Fingerprints",
+        "description": "Impronte digitali trovate sull'oggetto",
+        "related_event_id": "event001",
+        "person_id": "person002",
+        "object_id": "object001",
+        "date_collected": "2024-10-19T08:00:00Z",
+        "status": "Analyzed"
+    },
+    {
+        "_id": "evidence002",
+        "evidence_type": "Video di sorveglianza",
+        "description": "Video registrato della telecamera di sicurezza.",
+        "related_event_id": "event001",
+        "date_collected": "2024-10-19T09:00:00Z",
+        "status": "Analyzed"
+    }
+]

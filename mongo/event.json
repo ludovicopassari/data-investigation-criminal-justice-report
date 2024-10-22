@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "event001",
+        "event_type": "Furto",
+        "event_name": "Furto in appartamento",
+        "description": "Furto avvenuto in un appartamento al secondo piano di un edificio.",
+        "event_date": "2024-10-18T14:30:00Z",
+        "location_id": "location001",
+        "involved_persons": [
+            {
+                "person_id": "person001",
+                "occupation": "Designer",
+                "role": "Victim"
+            },
+            {
+                "person_id": "person002",
+                "occupation": "Police Officer",
+                "role": "Suspect"
+            },
+            {
+                "person_id": "person003",
+                "occupation": "Programmer",
+                "role": "Witness"
+            }
+        ],
+        "evidence_ids": [
+            "evidence001",
+            "evidence002"
+        ],
+        "status": "Investigating",
+        "date_reported": "2024-10-18T15:00:00Z",
+        "investigating_officer_id": "officer001",
+        "related_events": [
+            {
+                "event_id": "event002",
+                "relationship": "Possibile collegamento"
+            },
+            {
+                "event_id": "event003",
+                "relationship": "Stesso autore sospettato"
+            }
+        ],
+        "tags": [
+            "furto",
+            "incidente",
+            "polizia"
+        ]
+    }
+]
+

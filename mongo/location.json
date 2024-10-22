@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "location001",
+        "type": "Street Address",
+        "coordinates": {
+            "latitude": 41.9027835,
+            "longitude": 12.4963655
+        },
+        "address": {
+            "street": "Via Roma",
+            "number": "15",
+            "postal_code": "00100",
+            "city": "Roma",
+            "region": "Lazio",
+            "country": "Italy"
+        },
+        "description": "Appartamento situato al secondo piano",
+        "last_updated": "2024-01-01T08:00:00Z",
+        "tags": [
+            "residenza",
+            "furto",
+            "indirizzo"
+        ]
+    }
+]

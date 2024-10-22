@@ -1,0 +1,36 @@
+[
+    {
+        "_id": "person001",
+        "first_name": "Giovanni",
+        "last_name": "Bianchi",
+        "date_of_birth": "1990-05-15T00:00:00Z",
+        "gender": "Male",
+        "phone_number": "+39 123 456 7890",
+        "email": "giovanni.bianchi@example.com",
+        "residence_address": {
+            "location_id": "location001",
+            "street": "Piazza della Repubblica",
+            "number": "2",
+            "postal_code": "00185",
+            "city": "Roma",
+            "region": "Lazio",
+            "country": "Italy"
+        },
+        "nationality": "Italian",
+        "occupation": "Designer",
+        "relationship_status": "Single",
+        "accomplices": [
+            {
+                "accomplice_id": "person002",
+                "role": "Complice principale",
+                "description": "Ha partecipato attivamente all'atto criminoso"
+            },
+            {
+                "accomplice_id": "person003",
+                "role": "Complice secondario",
+                "description": "Ha fornito supporto durante il crimine"
+            }
+        ],
+        "date_registered": "2024-01-01T08:00:00Z"
+    }
+]
