@@ -2,6 +2,8 @@ services:
   neo4j:
     image: neo4j:latest
     container_name: neo4j
+    networks:
+      - my_network
     ports:
       - "7474:7474"  # Interfaccia web di Neo4j
       - "7687:7687"  # Bolt (protocollo di comunicazione)
@@ -17,17 +19,22 @@ services:
     image: mongo:latest
     container_name: mongo
     ports:
-      - "27017:27017"  # Porta per accedere a MongoDB
+      - "27018:27017"  # Porta per accedere a MongoDB
+    networks:
+      - my_network
     volumes:
       - mongo-data:/data/db  # Volume anonimo per i dati
       - ./mongo/logs:/var/log/mongodb  # Mantieni i log sulla macchina host
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
-  
+      MONGO_INITDB_DATABASE: mydatabase
+
   python-app:
     build: ./python
     container_name: python-app
+    networks:
+      - my_network
     depends_on:
       - neo4j
       - mongo
@@ -43,3 +50,6 @@ services:
 volumes:
   neo4j-data:
   mongo-data:
+networks:
+  my_network:
+    driver: bridge
