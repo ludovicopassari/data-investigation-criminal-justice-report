@@ -2,6 +2,7 @@ from data_generator import pd
 import numpy as np
 
 
+# function
 def person_to_event_relationship(people_entities: pd.DataFrame, event_entities: pd.DataFrame,
                                  max_relationship=3) -> pd.DataFrame:
     relationships = []
@@ -37,6 +38,7 @@ def main():
 
     persons = person_to_person(people, max_relationship=3)
     print(persons)
+
 
 if __name__ == '__main__':
     main()
