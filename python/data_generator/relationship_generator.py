@@ -17,15 +17,25 @@ def person_to_event_relationship(people_entities: pd.DataFrame, event_entities: 
     return pd.DataFrame(relationships)
 
 
-def person_to_person(people_entities: pd.DataFrame, max_relationship=3):
+def person_to_person_relationship(people_entities: pd.DataFrame, max_relationship=3):
+    """
+    Crea una relazione molti a molti tra diverse persone
+
+    :param people_entities:
+    :param max_relationship:
+    :return:
+    """
     relationships = []
 
     for index, row in people_entities.iterrows():
+        # specifica quante persone devono essere messe in relazione con la persona corrente
         num_relationships = np.random.randint(0, max_relationship + 1)
+        # estrae in maniera random un numero di 'id' di persone pari a 'num_relationship' dal dataframe delle le persone
         related_b = np.random.choice(people_entities['id'], num_relationships, replace=False)
-
+        # per ogni persona estratta verifica che essa non sia messa in relazione con se stessa
         for b_id in related_b:
-            relationships.append({'id_person1': row['id'], 'id_person2': b_id})
+            if b_id != row['id']:
+                relationships.append({'id_person1': row['id'], 'id_person2': b_id})
 
     return pd.DataFrame(relationships)
 
@@ -36,7 +46,7 @@ def main():
     events = pd.read_csv(
         '/Users/vico/Documents/projects/uni_prj/db/data-investigation-criminal-justice-report/dataset/events_data.csv')
 
-    persons = person_to_person(people, max_relationship=3)
+    persons = person_to_person_relationship(people, max_relationship=3)
     print(persons)
 
 
