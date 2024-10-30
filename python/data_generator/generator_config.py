@@ -14,7 +14,7 @@ person_attributes = [
 ]
 
 event_attributes = [
-    ('event_type', lambda: random.choice(['Crimine', 'Telefonata', 'Furto'])),
+    ('event_type', lambda: random.choice(['Omicidio', 'Furto'])),
     ('description', lambda: fake.sentence(nb_words=10)),
     ("event_date", lambda: fake.date_between(start_date='-20y', end_date='today').isoformat()),
     ("status", lambda: random.choice(["Investigating", "Closed", "Pending"])),
@@ -23,7 +23,7 @@ event_attributes = [
 
 
 object_attributes = [
-    ('type', lambda: random.choice(['Smartphone', 'Weapon', 'Knife', 'Car'])),
+    ('type', lambda: random.choice(['Weapon', 'Knife'])),
     ('serial_number', lambda: fake.uuid4()),
 
 ]
