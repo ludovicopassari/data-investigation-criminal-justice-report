@@ -8,36 +8,25 @@ person_attributes = [
     ('relationship_status', lambda: random.choice(['Married', 'Single'])),
     ('phone_number', lambda: fake.phone_number()),
     ('email', lambda: fake.email()),
-    ('phone_number', lambda: fake.phone_number()),
     ('date_of_birth', lambda: fake.date_of_birth(minimum_age=5, maximum_age=110)),
     ('occupation', lambda: fake.job())
 ]
 
 event_attributes = [
-    ('event_type', lambda: random.choice(['Omicidio', 'Furto'])),
+    ('event_type', lambda: random.choice(['Murder', 'Theft', 'Kidnapping', 'Attempt'])),
     ('description', lambda: fake.sentence(nb_words=10)),
     ("event_date", lambda: fake.date_between(start_date='-20y', end_date='today').isoformat()),
     ("status", lambda: random.choice(["Investigating", "Closed", "Pending"])),
     ('date_reported', lambda: fake.date_between(start_date='-20y', end_date='today').isoformat())
 ]
 
-
 object_attributes = [
-    ('type', lambda: random.choice(['Weapon', 'Knife'])),
-    ('serial_number', lambda: fake.uuid4()),
-
+    ('type', lambda: random.choice(['Gun', 'Knife', 'Hammer', 'Ax'])),
+    ('serial_number', lambda: fake.uuid4())
 ]
 
 location_attributes = [
-    ('type', lambda: random.choice(['Street Address', 'Residence'])),
     ('latitude', lambda: fake.latitude()),
     ('longitude', lambda: fake.longitude()),
     ("address", lambda: fake.address())
-]
-
-evidence_attributes = [
-    ('evidence_type', lambda: random.choice(['DNA', 'Fingerprints', 'Blood'])),
-    ('description', lambda: fake.sentence(nb_words=10)),
-    ('date_collected', lambda: fake.date_between(start_date='-20y', end_date='today').isoformat()),
-    ('status', lambda: random.choice(['Analyzed', 'Not Analyzed'])),
 ]

@@ -1,9 +1,6 @@
-from data_generator import pd
-import numpy as np
-import random
-from typing import Tuple
-import os
 from pathlib import Path
+from data_generator import pd, np
+from tqdm import tqdm
 
 
 def person_to_event_relationship(people_entities: pd.DataFrame,
@@ -11,7 +8,9 @@ def person_to_event_relationship(people_entities: pd.DataFrame,
                                  max_relationship=3) -> pd.DataFrame:
     relationships = []
 
-    for index, row in people_entities.iterrows():
+    for index, row in tqdm(people_entities.iterrows(), total=people_entities.shape[0],
+                           desc="Creating linked_to relationship",
+                           unit="row"):
         num_relationships = np.random.randint(0, max_relationship + 1)
         related_b = np.random.choice(event_entities['id'], num_relationships,
                                      replace=False)
@@ -25,12 +24,13 @@ def person_to_event_relationship(people_entities: pd.DataFrame,
 def person_to_person_relationship(people_entities: pd.DataFrame, max_relationship=3):
     relationships = []
 
-    for index, row in people_entities.iterrows():
+    for index, row in tqdm(people_entities.iterrows(), total=people_entities.shape[0],
+                           desc="Creating collaborate_with relationship",
+                           unit="row"):
         # specifica quante persone devono essere messe in relazione con la persona corrente
         num_relationships = np.random.randint(0, max_relationship + 1)
         # estrae in maniera random un numero di 'id' di persone pari a 'num_relationship' dal dataframe delle le persone
-        related_b = np.random.choice(people_entities['id'], num_relationships,
-                                     replace=False)
+        related_b = np.random.choice(people_entities['id'], num_relationships, replace=False)
         # per ogni persona estratta verifica che essa non sia messa in relazione con se stessa
         for b_id in related_b:
             if b_id != row['id']:
@@ -43,7 +43,9 @@ def person_to_person_relationship(people_entities: pd.DataFrame, max_relationshi
 def event_to_event_relationship(events_entities: pd.DataFrame, max_relationship=3) -> pd.DataFrame:
     relationships = []
 
-    for index, row in events_entities.iterrows():
+    for index, row in tqdm(events_entities.iterrows(), total=events_entities.shape[0],
+                           desc="Creating related_to relationship",
+                           unit="row"):
         num_relationships = np.random.randint(0, max_relationship + 1)
         related_b = np.random.choice(events_entities['id'], num_relationships,
                                      replace=False)
@@ -60,7 +62,8 @@ def event_to_location_relationship(events_entities: pd.DataFrame, location_entit
                                    max_relationship=3) -> pd.DataFrame:
     relationships = []
 
-    for index, row in events_entities.iterrows():
+    for index, row in tqdm(events_entities.iterrows(), total=events_entities.shape[0],
+                           desc="Creating happened_in relationship", unit="row"):
         related_location_id = np.random.choice(location_entities['id'], 1,
                                                replace=False)
         relationships.append(
@@ -76,13 +79,9 @@ def object_to_location_to_person_to_event_relationship(object_entities: pd.DataF
     founded_in_relationship = []
     involved_in_relationship = []
 
-    for index, row in object_entities.iterrows():
-        # un oggetto è posseduto da una persona o da nessuno
-        person = []
-        # un oggetto può essere coinvolto in nessuno o in molti eventi
-        events = []
-        # un oggetto deve essere trovato in una location
-        location = []
+    for index, row in tqdm(object_entities.iterrows(), total=object_entities.shape[0],
+                           desc="Creating owns,involved_in,founded_in relationships",
+                           unit="row"):
 
         # sceglie almeno una location random in cui l'oggetto
         location_id = np.random.choice(location_entities['id'], 1, replace=False)
@@ -109,23 +108,3 @@ def object_to_location_to_person_to_event_relationship(object_entities: pd.DataF
 
     return pd.DataFrame(owns_relationship), pd.DataFrame(
         founded_in_relationship), pd.DataFrame(involved_in_relationship)
-
-
-def main():
-    base_dir = Path(__file__).parent.parent.parent
-    dataset_dir = base_dir.joinpath("dataset", "")
-
-    people = pd.read_csv(dataset_dir.joinpath("people_data.csv"))
-    events = pd.read_csv(dataset_dir.joinpath("events_data.csv"))
-    location_entities = pd.read_csv(dataset_dir.joinpath("location_data.csv"))
-    object_entities = pd.read_csv(dataset_dir.joinpath("objects_data.csv"))
-
-    owns, founded, involved = object_to_location_to_person_to_event_relationship(
-        object_entities=object_entities,
-        location_entities=location_entities,
-        person_entities=people,
-        event_entities=events)
-
-
-if __name__ == '__main__':
-    main()

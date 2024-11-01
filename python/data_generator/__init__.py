@@ -1,5 +1,6 @@
 # Import delle librerie necessarie
 import pandas as pd
+import numpy as np
 from faker import Faker
 import random
 from .generator import generate_data
@@ -9,4 +10,4 @@ from .generator import generate_data
 fake = Faker()
 
 # Esportazione delle librerie nel namespace del pacchetto
-__all__ = ['pd', 'random', 'fake', 'generate_data']
+__all__ = ['pd', 'random', 'fake', 'generate_data','np']
