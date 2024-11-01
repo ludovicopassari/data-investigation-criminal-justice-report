@@ -1,3 +1,4 @@
+from data_generator import random
 from data_generator import pd
 import numpy as np
 
@@ -29,14 +30,27 @@ def person_to_person(people_entities: pd.DataFrame, max_relationship=3):
     return pd.DataFrame(relationships)
 
 
+def person_to_location(people_entities: pd.DataFrame, location_entities: pd.DataFrame):
+   residence_in = []
+   for index,row in people_entities.iterrows():
+       location_id = []
+       has_home = np.random.choice([0,1],p=[0.8,0.2])
+       if has_home:
+           location_id = np.random.choice(location_entities['id'],has_home)
+       for id in location_id:
+           residence_in.append({'id_person': row['id'], 'id_location': id})
+   df=pd.DataFrame(residence_in)
+   return df
+
 def main():
     people = pd.read_csv(
-        '/Users/vico/Documents/projects/uni_prj/db/data-investigation-criminal-justice-report/dataset/people_data.csv')
+        '/Users/mattiamusarra/Desktop/ProgettoDBNoSql/data-investigation-criminal-justice-report/dataset/people_data.csv')
     events = pd.read_csv(
-        '/Users/vico/Documents/projects/uni_prj/db/data-investigation-criminal-justice-report/dataset/events_data.csv')
+        '/Users/mattiamusarra/Desktop/ProgettoDBNoSql/data-investigation-criminal-justice-report/dataset/events_data.csv')
+    object=pd.read_csv('/Users/mattiamusarra/Desktop/ProgettoDBNoSql/data-investigation-criminal-justice-report/dataset/objects_data.csv')
+    location=pd.read_csv('/Users/mattiamusarra/Desktop/ProgettoDBNoSql/data-investigation-criminal-justice-report/dataset/location_data.csv')
 
-    persons = person_to_person(people, max_relationship=3)
-    print(persons)
-
+    locationToPerson=person_to_location(people,location)
+    print(locationToPerson)
 if __name__ == '__main__':
     main()

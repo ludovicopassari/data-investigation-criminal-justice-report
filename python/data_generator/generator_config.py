@@ -41,3 +41,13 @@ evidence_attributes = [
     ('date_collected', lambda: fake.date_between(start_date='-20y', end_date='today').isoformat()),
     ('status', lambda: random.choice(['Analyzed', 'Not Analyzed'])),
 ]
+
+"""
+Andiamo a definire  una serie di attributi per quattro categorie - persona,evento, oggetto luogo e prova.
+--- PERSON ATTRIBUTES ---
+Questa lista simula i dettagli di una persona, dove ogni elemento è una coppia composta da : 
+1) Nome dell'attributo.
+2) Funzione lambda che genera un valore per quell'attributo usando le librerie fake e random. In questo modo si ritarda l'esecuzione della funzione di faker
+qinado viene chiamata la lambda.
+Quindi sostanzialmetne abbiamo liste di tuple
+"""
