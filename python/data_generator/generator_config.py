@@ -9,7 +9,8 @@ person_attributes = [
     ('phone_number', lambda: fake.phone_number()),
     ('email', lambda: fake.email()),
     ('date_of_birth', lambda: fake.date_of_birth(minimum_age=5, maximum_age=110)),
-    ('occupation', lambda: fake.job())
+    ('occupation', lambda: random.choice(['Policeman', 'Engineer', "Doctor", "Workman"])),
+    ('status', lambda: random.choice(['Suspected', 'Guilty', 'Innocent'])),
 ]
 
 event_attributes = [
@@ -28,17 +29,11 @@ object_attributes = [
 location_attributes = [
     ('latitude', lambda: fake.latitude()),
     ('longitude', lambda: fake.longitude()),
-    ("address", lambda: fake.address())
+    ("street_name", lambda: fake.street_name()),
+    ("building_number", lambda: fake.building_number()),
+    ("city", lambda: fake.city()),
+    ("state", lambda: fake.state()),
+    ("country", lambda: fake.country()),
+    ("postal_code", lambda: fake.postcode()),
+
 ]
-
-
-
-"""
-Andiamo a definire  una serie di attributi per quattro categorie - persona,evento, oggetto luogo e prova.
---- PERSON ATTRIBUTES ---
-Questa lista simula i dettagli di una persona, dove ogni elemento è una coppia composta da : 
-1) Nome dell'attributo.
-2) Funzione lambda che genera un valore per quell'attributo usando le librerie fake e random. In questo modo si ritarda l'esecuzione della funzione di faker
-qinado viene chiamata la lambda.
-Quindi sostanzialmetne abbiamo liste di tuple
-"""

@@ -1,6 +1,6 @@
 
-1. Trovare tutti i sospettati di uno specifico evento	Basso -> OK
-2. Trovare tutti gli agenti delle forze dell’ordine che hanno avuto a che fare con omicidi	Moderato
-3. Trovare tutte le rapine a Napoli con più di 4 rapinatori armati	Alto
-4. Estrarre tutti i casi di omicidio con martello entro 24 ore da una rapina	Molto Alto
-5. Estrarre casi di omicidio con coltello e persone legate tramite impronte digitali	Molto Alto
+1. Ottenere informazioni anagrafiche di una persona cercando per nome
+2. Trovare tutte le persone indagate che sono legate ad uno specifico evento
+3. Trovare tutte le residenze delle persone coinvolte in eventi correlati.
+4. Trovare il propietario(se ci sono) di un oggetto che è legato ad un evento specifico
+5. trovare il propietario di un oggetto ritrovato in una determinata locataion che è stata sede di un evento particolare.
