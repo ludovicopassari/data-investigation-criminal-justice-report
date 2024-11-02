@@ -30,14 +30,8 @@ location_attributes = [
     ('longitude', lambda: fake.longitude()),
     ("address", lambda: fake.address())
 ]
-<<<<<<< HEAD
 
-evidence_attributes = [
-    ('evidence_type', lambda: random.choice(['DNA', 'Fingerprints', 'Blood'])),
-    ('description', lambda: fake.sentence(nb_words=10)),
-    ('date_collected', lambda: fake.date_between(start_date='-20y', end_date='today').isoformat()),
-    ('status', lambda: random.choice(['Analyzed', 'Not Analyzed'])),
-]
+
 
 """
 Andiamo a definire  una serie di attributi per quattro categorie - persona,evento, oggetto luogo e prova.
@@ -48,5 +42,3 @@ Questa lista simula i dettagli di una persona, dove ogni elemento è una coppia 
 qinado viene chiamata la lambda.
 Quindi sostanzialmetne abbiamo liste di tuple
 """
-=======
->>>>>>> ludovico-branch
