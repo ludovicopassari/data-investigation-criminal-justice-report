@@ -1,5 +1,6 @@
 # Import delle librerie necessarie
 import pandas as pd
+import numpy as np
 from faker import Faker
 import random
 from .generator import generate_data
@@ -9,6 +10,7 @@ from .generator import generate_data
 fake = Faker()
 
 # Esportazione delle librerie nel namespace del pacchetto
+<<<<<<< HEAD
 __all__ = ['pd', 'random', 'fake', 'generate_data']
 
 
@@ -20,3 +22,6 @@ __all__ = è una lista che specifica quali nomi devono essere esportati quando s
 form module import *. In altre parole quando un altro modulo importa tutto dal modulo corrente, solo gli oggetti
 elencati in __all__ saranno accessibili.
 """
+=======
+__all__ = ['pd', 'random', 'fake', 'generate_data','np']
+>>>>>>> ludovico-branch
