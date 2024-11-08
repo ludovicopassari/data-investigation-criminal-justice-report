@@ -46,6 +46,23 @@
 }
 
 
+db.events.aggregate([
+  { 
+    $match: { "_id": 0 }  // Filtro per selezionare l'evento con _id: 0
+  },
+  {
+    $lookup: {
+      from: "people",  // La collezione di persone
+      localField: "linked_to",  // Campo nell'evento che contiene gli ID delle persone
+      foreignField: "_id",  // Campo nella collezione "people" che corrisponde agli ID
+      as: "people_details"  // Il risultato della join sarà contenuto in questo campo
+    }
+  }
+])
+
+
+
+
 
 db.persona.find({ "nome": "Mario Rossi" })
 

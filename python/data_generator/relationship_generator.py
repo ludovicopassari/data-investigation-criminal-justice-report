@@ -81,7 +81,7 @@ def event_to_location_relationship(events_entities: pd.DataFrame, location_entit
         related_location_id = np.random.choice(location_entities['id'], 1,
                                                replace=False)
         relationships.append(
-            {'id_event1': row['id'], 'id_location': related_location_id[0]})
+            {'id_event': row['id'], 'id_location': related_location_id[0]})
     return pd.DataFrame(relationships)
 
 
@@ -110,15 +110,15 @@ def object_to_location_to_person_to_event_relationship(object_entities: pd.DataF
 
         # assegna all'oggetto la location in cui è stato trovato
         founded_in_relationship.append(
-            {'object_id': row['id'], 'location_id': location_id[0]})
+            {'id_object': row['id'], 'id_location': location_id[0]})
 
         for person_id in people_id:
             owns_relationship.append(
-                {'object_id': row['id'], 'person_id': person_id})
+                {'id_object': row['id'], 'id_person': person_id})
 
         for event_id in events_id:
             involved_in_relationship.append(
-                {'object_id': row['id'], 'event_id': event_id})
+                {'id_object': row['id'], 'id_event': event_id})
 
     return pd.DataFrame(owns_relationship), pd.DataFrame(
         founded_in_relationship), pd.DataFrame(involved_in_relationship)
