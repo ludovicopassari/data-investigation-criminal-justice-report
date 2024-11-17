@@ -222,3 +222,19 @@
 2024-10-04 21:01:48.318+0000 INFO  Started.
 2024-10-04 21:11:48.280+0000 INFO  Neo4j Server shutdown initiated by request
 2024-10-04 21:11:48.281+0000 INFO  Stopping...
+2024-11-16 08:49:14.793+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2024-11-16 08:49:14.810+0000 INFO  Starting...
+2024-11-16 08:49:15.494+0000 INFO  This instance is ServerId{60e0e6d5} (60e0e6d5-c4c5-4961-81c5-73c30306d7f0)
+2024-11-16 08:49:16.257+0000 INFO  ======== Neo4j 5.24.1 ========
+2024-11-16 08:49:17.530+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage-data/
+2024-11-16 08:49:17.647+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2024-11-16 08:49:18.076+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+2024-11-16 08:49:18.077+0000 INFO  Remote interface available at http://localhost:7474/
+2024-11-16 08:49:18.079+0000 INFO  id: DE10E6C6327B4C0CDCDDF72B85876ED5B7E7366662940978D1B3CB78632E54BE
+2024-11-16 08:49:18.079+0000 INFO  name: system
+2024-11-16 08:49:18.080+0000 INFO  creationDate: 2024-10-04T19:46:10.718Z
+2024-11-16 08:49:18.080+0000 INFO  Started.
+2024-11-16 10:48:09.315+0000 WARN  [bolt-0] The client is unauthorized due to authentication failure.
+2024-11-16 10:53:59.879+0000 WARN  [bolt-1] The client is unauthorized due to authentication failure.
+2024-11-16 15:43:51.442+0000 INFO  Neo4j Server shutdown initiated by request
+2024-11-16 15:43:51.445+0000 INFO  Stopping...

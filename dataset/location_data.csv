@@ -1,101 +1,501 @@
-id,latitude,longitude,street_name,building_number,city,state,country,postal_code
-0,-8.280103,88.495107,Wilkins Expressway,0457,Port Staceymouth,Massachusetts,Comoros,66895
-1,-86.209741,46.225177,Jacobson Freeway,73514,East Donnaberg,Alaska,Suriname,23938
-2,50.457452,124.146175,Cruz Union,37955,Rodriguezhaven,Indiana,Central African Republic,70439
-3,-15.8420525,-36.359819,Nancy Mountains,4068,West Cynthia,Nevada,Saint Pierre and Miquelon,70722
-4,87.527994,-103.435031,Bray Locks,1918,Markside,Wisconsin,Argentina,64583
-5,75.7190965,-6.973544,Charles Meadow,342,North Craigville,Michigan,Australia,56921
-6,-6.731211,38.021835,Kayla Isle,919,Lawrenceland,Illinois,Niue,23094
-7,66.770350,13.642938,Blake Stream,218,Carterton,Ohio,Micronesia,90440
-8,-76.556596,48.572451,Tina Underpass,847,Elizabethstad,New Mexico,Syrian Arab Republic,06392
-9,85.0976625,81.882586,Jeanette Curve,0236,Mathismouth,Michigan,Kyrgyz Republic,77424
-10,4.5089035,-37.287997,Charles Point,392,Russoview,Maine,Hungary,86850
-11,-4.5373445,-46.886339,Newton Track,800,Levishire,Idaho,Greenland,16899
-12,69.2270245,-60.365832,Davis Ways,6596,Mooremouth,Tennessee,Mali,71459
-13,11.6956625,169.384664,Brandi Mill,3746,Port Brian,Nevada,Peru,75341
-14,-60.9869105,71.279431,Joy Mall,53755,Brooksville,Nebraska,Saudi Arabia,42602
-15,-19.789550,-16.652900,Rasmussen Corner,193,New Cassandra,West Virginia,Kenya,06666
-16,-7.843310,90.920713,Sarah Ferry,3603,Lake Blakeville,Colorado,Christmas Island,85556
-17,72.5068335,-102.963113,Catherine Union,19434,Erikaberg,Ohio,Morocco,04579
-18,-52.6570415,-102.925944,Robert Brook,94469,New Patricia,Mississippi,Sweden,65866
-19,-21.250184,101.080740,Castillo Land,6978,Susanstad,Oregon,Greenland,70468
-20,69.7586535,150.982830,Jessica Avenue,168,West Douglas,South Carolina,Saint Barthelemy,03725
-21,-10.540365,93.917222,Cynthia Fort,483,Maddenton,Pennsylvania,United States Virgin Islands,06677
-22,72.5205215,39.435120,Kristin Haven,815,South Joseph,Alabama,Western Sahara,72098
-23,-81.590601,13.904366,Renee Street,95449,Erintown,Indiana,Cook Islands,36495
-24,-0.992024,9.964978,Tonya Hollow,1537,Freemanhaven,Washington,Slovakia (Slovak Republic),37120
-25,55.5284385,-39.109221,Susan Ferry,26218,West Seth,Indiana,Myanmar,03368
-26,60.0245955,-142.495615,Dominique Green,34057,New Peter,South Dakota,United States of America,21348
-27,42.436977,-76.463538,Danielle Center,9842,Reneemouth,Louisiana,Zambia,47436
-28,-25.807832,21.566396,Christopher Creek,691,Schwartzstad,North Carolina,Ireland,80318
-29,25.203636,29.043570,Pamela Harbors,282,Port Dennisberg,Maine,Oman,51436
-30,-60.893339,161.039758,Aaron Cape,821,East Erica,Kentucky,Pitcairn Islands,13687
-31,30.9747145,38.790117,William Key,2166,Jessicamouth,Colorado,Guinea-Bissau,23778
-32,66.0749015,7.651154,Cole Via,8130,Port Christophermouth,Connecticut,Cameroon,93635
-33,9.9389215,62.296600,Juan Keys,3085,Lauratown,Colorado,Gambia,99670
-34,-31.196193,-52.461854,Stout Ramp,8664,East Peterbury,Ohio,North Macedonia,14625
-35,-15.3868975,-150.836573,Sheppard Fort,90917,West Victoria,Florida,Philippines,27336
-36,39.323221,154.227125,Wagner Lakes,5891,Chapmanshire,Missouri,United States Minor Outlying Islands,31545
-37,-0.1162015,51.499104,Griffin Drive,8819,Juliastad,South Dakota,Solomon Islands,28489
-38,10.116102,77.145988,Johnson Dam,39428,Alexanderchester,Washington,France,47444
-39,-29.250480,-108.896686,Lyons Mountain,235,North Seanton,Kansas,Congo,65384
-40,42.1807445,62.001089,Silva Centers,6761,North Anthony,Idaho,Uruguay,39474
-41,86.861947,173.705782,Ryan Islands,447,Colleenhaven,Massachusetts,Mauritania,52286
-42,-7.4639285,118.627736,Roman River,90202,Brianborough,Idaho,Bouvet Island (Bouvetoya),32905
-43,-39.1158015,35.620866,Henry Rapids,792,Riosland,Nevada,Bouvet Island (Bouvetoya),70713
-44,-5.504738,135.808653,Mike Loaf,13570,New Haleymouth,Nebraska,British Indian Ocean Territory (Chagos Archipelago),90423
-45,48.736503,45.190498,Briana Cove,66112,East Ronaldshire,Massachusetts,China,30587
-46,58.6363845,-115.887253,Joshua Meadows,6461,Lewisland,Georgia,Burundi,28226
-47,-0.517881,65.546730,Bradshaw Crest,6982,Pamelatown,Maryland,Guadeloupe,50432
-48,-63.5998285,80.231295,Kelli Estate,8320,Lake Joseph,Kansas,Saint Helena,31740
-49,-85.7937595,-9.213046,Megan Track,7231,Hickmanside,Vermont,Grenada,81068
-50,-30.291092,-38.370968,Melissa Tunnel,24614,Port Whitneyborough,Arkansas,Mayotte,90268
-51,74.6888885,134.666288,Cindy Lake,55105,Lake Derrickview,New Mexico,Puerto Rico,96596
-52,74.6212615,-85.049992,Laura Roads,54099,Port Gabrielletown,Illinois,Costa Rica,54922
-53,-24.397210,157.414849,Daniel Mount,7592,Lake Maryfort,Kansas,Turkmenistan,62998
-54,-7.1415035,-127.419055,Lisa Crescent,80042,South Katherineland,New Mexico,Dominican Republic,77760
-55,10.5386015,-51.831374,Christopher Cape,457,Lake Sarahaven,Indiana,Bahrain,27715
-56,-51.617048,-23.294272,Edward Ridges,238,Lake Victor,Wyoming,French Guiana,57985
-57,-24.9188945,-13.271173,Gardner Stream,884,West Erinmouth,Colorado,United States of America,96070
-58,-1.9736715,-128.249786,Austin Fall,99515,Lake Jennifer,Alaska,Cook Islands,66137
-59,-79.7650265,-81.345848,Smith Vista,50993,West Carolyn,Nebraska,Cyprus,75721
-60,-69.231939,-164.963964,Smith Rest,8101,East Tammy,Tennessee,French Southern Territories,16519
-61,-39.736907,-19.970775,Robyn Summit,783,Jennashire,California,Kenya,68704
-62,-41.947505,-19.643449,Grimes Keys,222,Michaelland,North Carolina,Zimbabwe,53974
-63,78.7129705,-8.036849,Nelson Vista,5349,Frenchfort,Vermont,Malaysia,49630
-64,17.8799995,-86.900416,Hernandez Center,4623,West Davidfort,Connecticut,Micronesia,68071
-65,4.270628,-43.237521,Heather Freeway,099,Aliciamouth,Alabama,Ecuador,10394
-66,64.282371,174.690341,Brennan Square,20120,Jeffreyburgh,Oregon,Turks and Caicos Islands,50967
-67,23.349336,40.437369,Woodward Ford,286,Reevesbury,Louisiana,Saint Helena,66165
-68,-10.502746,-54.333475,Olson Vista,619,Philipview,Hawaii,Gambia,12210
-69,59.337226,-81.789258,Burns Circles,5160,North Randall,Iowa,Croatia,04344
-70,2.5423105,55.038298,Mary Burgs,8739,Lake Makayla,Maine,North Macedonia,81366
-71,8.2967665,-72.532937,Todd Trace,07418,Floydmouth,Massachusetts,Malaysia,93326
-72,0.3804665,121.337887,Kelly Brook,26051,South Lisaton,Washington,Cape Verde,63014
-73,-14.8151995,173.074364,Sanchez Oval,4595,East Robert,Utah,Brazil,52102
-74,55.0551635,-107.181300,Michael Mountains,250,West Luistown,Washington,Wallis and Futuna,52066
-75,-5.256994,163.282929,Brady Mission,70755,Christinashire,Utah,Reunion,86819
-76,43.292280,-9.870890,Daniels Glen,706,Mauriceton,Minnesota,French Polynesia,84897
-77,-49.009150,97.016440,Hopkins Pass,070,South Craig,Connecticut,Bosnia and Herzegovina,69352
-78,-85.007865,38.234074,Vasquez Knolls,8383,East Andrewtown,Texas,Korea,62881
-79,-57.837671,12.057168,Bruce Plain,425,Carneyton,North Dakota,British Virgin Islands,26887
-80,61.777591,-129.906176,Phillips Curve,818,New Anne,Alaska,Mauritania,48157
-81,79.7735795,-67.210870,Valerie Vista,02924,North Alison,Louisiana,Italy,35678
-82,86.9576405,-163.030679,Julie Expressway,4027,Michelleton,South Carolina,Antarctica (the territory South of 60 deg S),61436
-83,70.9302155,48.963902,Kayla Groves,46669,Smithburgh,Iowa,Burundi,91766
-84,79.4430015,44.347157,Mary Prairie,395,New Philipchester,Colorado,Turks and Caicos Islands,24119
-85,9.247381,33.450786,Butler Rapid,633,Kaylashire,Hawaii,Guadeloupe,64396
-86,-31.921756,-76.360377,Debbie Creek,114,Scottfort,Maine,United States Minor Outlying Islands,68102
-87,46.4325585,-37.614704,Cynthia Glen,726,Thomasborough,Colorado,Pakistan,88268
-88,-34.2913325,-28.932366,Johnson Road,32029,Port Amber,North Carolina,San Marino,77435
-89,-45.013568,-93.068656,Anderson Branch,58553,North Katherine,Wisconsin,Bolivia,82393
-90,21.099333,-49.782507,Adams Street,804,Williamstown,Alabama,Georgia,13095
-91,-17.363233,-118.110999,Becker Keys,250,Crystalmouth,Kansas,Maldives,32305
-92,72.0763895,-116.040355,Jenkins Extensions,057,Jamesstad,Minnesota,Indonesia,64061
-93,39.9550155,50.159045,Tabitha Rest,7502,North Marthaborough,Indiana,Andorra,42364
-94,-21.9450175,-173.972072,William Meadow,5018,Kerriview,Montana,Brazil,29737
-95,-28.406262,-66.295164,Kelly Common,07055,North David,Virginia,Uganda,40026
-96,74.624739,-87.970529,Jill Plains,1510,Alexisborough,Arizona,Zambia,29545
-97,-20.9540915,139.883459,Myers Loop,5618,East Ronald,Tennessee,Albania,75641
-98,-82.7626305,-114.583234,Williams Vista,764,New Misty,Louisiana,Palau,91931
-99,-28.9637235,-81.036520,Ward Shore,21646,Mezafort,Texas,Saint Pierre and Miquelon,38981
+incremental_id,latitude,longitude,street_name,building_number,city,state,country,postal_code,id
+0,-79.4478255,161.394106,Hernandez Lake,07403,New Sarah,South Carolina,Cameroon,62981,67387e97cfcd208495001234
+1,-62.547932,173.754490,Jeffrey Landing,682,Port Stephanieburgh,Michigan,Lebanon,22565,67387e97c4ca4238a0001234
+2,50.0877805,-77.540440,Danielle Flat,990,Ballport,Florida,Norfolk Island,36681,67387e97c81e728d9d001234
+3,-22.016858,124.863218,Tara Highway,426,East Jennifer,Arkansas,Brunei Darussalam,96105,67387e97eccbc87e4b001234
+4,-12.395792,-97.960703,Cory Fork,465,Hollandborough,Ohio,Swaziland,17654,67387e97a87ff679a2001234
+5,-79.400880,-16.738012,Vincent Brooks,257,South Jennifer,New York,Cape Verde,79052,67387e97e4da3b7fbb001234
+6,37.4678605,-61.927586,Charlotte Pike,236,West Thomas,Indiana,Bahrain,80231,67387e971679091c5a001234
+7,48.004009,-71.758230,Frank Overpass,953,Port Danielville,Mississippi,Slovenia,73325,67387e978f14e45fce001234
+8,-40.025366,-35.436683,Christopher Path,0425,Pamelafort,Maryland,United States Minor Outlying Islands,58066,67387e97c9f0f895fb001234
+9,84.339483,152.732436,Yolanda Circles,8841,East Stacy,Alabama,Paraguay,42431,67387e9745c48cce2e001234
+10,-71.009638,125.313883,Robert Burg,35553,Watkinsstad,Connecticut,Nigeria,06005,67387e97d3d9446802001234
+11,-53.9650065,133.622172,Michael Walk,25378,Port Jessica,Oregon,Reunion,13606,67387e976512bd43d9001234
+12,10.1071305,94.651138,Vicki Shoals,2486,Port Danielle,North Dakota,Guatemala,52041,67387e97c20ad4d76f001234
+13,-48.232227,89.112050,Mckenzie Ports,151,East Brandiview,Mississippi,Brazil,09821,67387e97c51ce410c1001234
+14,-61.0816695,-31.751528,Mills Corners,4453,Nicolechester,Louisiana,Kenya,90441,67387e97aab3238922001234
+15,-52.491029,77.526897,Hill Keys,5300,Crossside,Missouri,Guatemala,85136,67387e979bf31c7ff0001234
+16,-58.641239,-108.049528,Pena Gardens,44491,Michaelmouth,Maryland,Kazakhstan,39862,67387e97c74d97b01e001234
+17,-23.905780,-19.412450,Middleton Crest,99854,New Lisa,Rhode Island,Peru,65141,67387e9770efdf2ec9001234
+18,2.9468305,-12.151156,Long Drive,0938,Nathanland,North Carolina,Liberia,29359,67387e976f4922f455001234
+19,-74.4492405,141.065683,Abigail Flat,88306,West Richardberg,New Jersey,Bulgaria,69933,67387e971f0e3dad99001234
+20,-65.295476,-76.605521,Shawna Forks,2454,Juanbury,Tennessee,Saudi Arabia,78532,67387e9798f1370821001234
+21,-49.715751,-63.668529,Stevens Viaduct,5221,Port Darin,North Carolina,Niger,94732,67387e973c59dc048e001234
+22,23.2455325,-149.802773,Katie Forges,3418,East Wendyland,Michigan,Peru,06082,67387e97b6d767d2f8001234
+23,-54.0094355,-135.544606,Lindsey Groves,595,Cesarfurt,Missouri,Marshall Islands,66450,67387e9737693cfc74001234
+24,16.5279405,-158.357805,Deborah Cliffs,268,Perrybury,West Virginia,Sierra Leone,38782,67387e971ff1de7740001234
+25,-68.0454845,-132.448704,Donald Prairie,47344,Alisonmouth,North Carolina,Uganda,45100,67387e978e296a067a001234
+26,56.1956735,-131.426378,Deborah Estates,00790,Wilsonmouth,Hawaii,Turkmenistan,68414,67387e974e732ced34001234
+27,13.786663,150.603413,Stewart Springs,696,East Nicole,Louisiana,Christmas Island,52488,67387e9702e74f10e0001234
+28,-32.119233,57.346706,Black Rue,02853,Lake Jeffreyburgh,Kentucky,Pitcairn Islands,32025,67387e9733e75ff09d001234
+29,-9.4792735,111.241870,Giles Mission,03108,East Kimberly,Iowa,Mayotte,64572,67387e976ea9ab1baa001234
+30,-22.4670945,-23.280710,Miguel Islands,3169,Burgessside,Wyoming,Iraq,79498,67387e9734173cb38f001234
+31,64.1822345,46.277254,Salazar Motorway,8854,South Rodneymouth,Alabama,Jamaica,74852,67387e97c16a5320fa001234
+32,62.699194,-121.632854,Mata Valleys,51225,Lake Christophertown,New Hampshire,American Samoa,49170,67387e976364d3f0f4001234
+33,24.1359325,159.167033,Arias Walks,4019,Huntborough,Illinois,Cambodia,83157,67387e97182be0c5cd001234
+34,27.119990,178.353602,Michelle Centers,373,Port Ellen,Maine,Nigeria,79976,67387e97e369853df7001234
+35,25.411263,-129.162566,Michael Point,7355,Matthewsstad,Louisiana,Greenland,29631,67387e971c383cd30b001234
+36,42.132822,-169.319357,Ford Crossing,987,New Kari,South Carolina,Heard Island and McDonald Islands,70490,67387e9719ca14e7ea001234
+37,-69.6419395,-57.993302,Lewis Manors,8437,Brookechester,Nevada,Venezuela,57169,67387e97a5bfc9e079001234
+38,-70.0927845,34.730582,Lisa Spring,70875,Ericfort,South Dakota,Botswana,38784,67387e97a5771bce93001234
+39,-45.133431,-12.219428,Gonzalez Bypass,32607,Lindsayburgh,Michigan,Papua New Guinea,24837,67387e97d67d8ab4f4001234
+40,45.5806155,-157.227299,Tyler Roads,81301,Youngmouth,Mississippi,Saint Vincent and the Grenadines,25857,67387e97d645920e39001234
+41,-73.6180645,118.117701,Jason Fall,2327,South Ann,Illinois,Serbia,45336,67387e973416a75f4c001234
+42,47.768910,92.771542,Laura Bridge,453,Rachelhaven,Florida,Grenada,23979,67387e97a1d0c6e83f001234
+43,56.175492,-43.374039,Taylor Lodge,7037,Fuentesstad,Virginia,Cuba,45828,67387e9717e62166fc001234
+44,-21.3132485,61.072652,Lindsey Lodge,40553,Elijahfort,South Dakota,Norfolk Island,19141,67387e97f7177163c8001234
+45,64.587845,22.409791,Nicholas Crest,73292,Cortezborough,Texas,New Caledonia,44079,67387e976c8349cc72001234
+46,-37.6128925,104.275325,Savage Lodge,9599,East Jessica,South Carolina,United Kingdom,19327,67387e97d9d4f495e8001234
+47,-4.5211835,-139.855791,Joel Station,8416,Donnaton,Kansas,Thailand,18474,67387e9767c6a1e7ce001234
+48,2.3749675,-107.989714,Scott Rapids,42198,Bushtown,Massachusetts,Cocos (Keeling) Islands,02304,67387e97642e92efb7001234
+49,-78.0090805,-33.637875,Ashley Lane,66858,Brianfort,Oklahoma,Jamaica,48246,67387e97f457c545a9001234
+50,55.908906,-29.688745,Brown Road,281,Coreyfurt,North Dakota,Liberia,27236,67387e97c0c7c76d30001234
+51,36.626032,152.880033,Jones Point,978,Lake Paul,Kansas,Costa Rica,56834,67387e972838023a77001234
+52,-83.108925,117.282383,Smith Mountains,47294,Port Cesar,Pennsylvania,New Zealand,44598,67387e979a1158154d001234
+53,65.2799455,174.087543,Kelsey Locks,2910,Roachton,New Mexico,Austria,67654,67387e97d82c8d1619001234
+54,4.1141895,-34.731053,Julie Groves,144,West Lauren,Indiana,Turkey,04509,67387e97a684eceee7001234
+55,-86.1123455,-30.732216,Rachel Mountains,25576,Jonesview,Illinois,Antarctica (the territory South of 60 deg S),64860,67387e97b53b3a3d6a001234
+56,-5.123181,98.486682,Yesenia Stravenue,3593,Paulland,Texas,Luxembourg,15747,67387e979f61408e3a001234
+57,-68.347759,-14.739743,Jenkins Mission,10496,Tinatown,Texas,San Marino,43757,67387e9772b32a1f75001234
+58,36.8667345,-127.031969,Smith Row,2601,New Matthew,Idaho,Antigua and Barbuda,83702,67387e9766f041e16a001234
+59,19.1613975,-87.603167,Lewis Centers,759,East Samanthafurt,Pennsylvania,Bahamas,67578,67387e97093f65e080001234
+60,65.5304375,158.229480,Bailey Bridge,90806,Port Matthewshire,North Dakota,Grenada,65928,67387e97072b030ba1001234
+61,74.140578,33.453823,Shirley Circles,9742,Geneport,Iowa,San Marino,97587,67387e977f39f8317f001234
+62,-17.764300,151.163036,Tabitha Canyon,2999,North Josephmouth,Arizona,South Georgia and the South Sandwich Islands,74876,67387e9744f683a841001234
+63,51.665765,-33.604964,Megan Mountain,694,Frankburgh,Florida,Iran,98300,67387e9703afdbd66e001234
+64,-27.2535865,48.438146,Pittman Locks,322,Allenbury,Oregon,Iran,87011,67387e97ea5d2f1c46001234
+65,-88.1070105,96.071825,Theresa Oval,245,Cookfort,Delaware,Japan,98856,67387e97fc490ca45c001234
+66,-61.574629,-16.940878,Robert Fords,44248,Timothyton,Rhode Island,Romania,95566,67387e973295c76acb001234
+67,0.0464565,176.362712,Matthews Union,0886,South Bethstad,Virginia,Moldova,17190,67387e97735b90b456001234
+68,51.2365935,-136.765672,Davis Divide,28033,East Jilltown,Michigan,Zambia,07298,67387e97a3f390d88e001234
+69,25.5246495,93.751082,Alexis Crossing,90280,New Christopher,Kentucky,Marshall Islands,48690,67387e9714bfa6bb14001234
+70,-15.1633595,4.552764,Joshua Alley,003,New Dawnton,South Dakota,South Africa,81775,67387e977cbbc409ec001234
+71,73.3940185,33.034539,Allen Shoal,73147,Port Danaport,Nebraska,India,53819,67387e97e2c420d928001234
+72,21.511296,-177.440355,Stewart Streets,329,East Victoria,Indiana,Central African Republic,06440,67387e9732bb90e897001234
+73,77.732590,-120.889075,Diana Circles,952,Lake Jacquelineshire,Connecticut,Bahrain,86123,67387e97d2ddea18f0001234
+74,-68.5891395,-130.996570,Alisha Club,02591,Schmidtberg,New York,Eritrea,98795,67387e97ad61ab1432001234
+75,0.433225,170.261616,Kayla Viaduct,02401,West Nicolemouth,Nevada,Singapore,33587,67387e97d09bf41544001234
+76,-85.479079,61.094775,Elizabeth Shore,777,East Codymouth,Tennessee,Israel,24742,67387e97fbd7939d67001234
+77,-54.375704,145.797175,Rachael Via,722,Sabrinaburgh,Pennsylvania,Argentina,47475,67387e9728dd2c7955001234
+78,50.569598,96.775541,Hurst Shore,4911,Maldonadochester,Indiana,British Indian Ocean Territory (Chagos Archipelago),08686,67387e9735f4a8d465001234
+79,-13.921052,-98.320956,Ryan Road,9359,Michaelmouth,Oklahoma,Tanzania,85022,67387e97d1fe173d08001234
+80,-57.424843,21.754855,Emily Skyway,42420,Port Johnstad,Iowa,Croatia,62916,67387e97f033ab37c3001234
+81,-27.197799,-18.073821,Anthony Path,72592,Williamberg,Louisiana,Grenada,49172,67387e9743ec517d68001234
+82,-58.1130795,25.759968,Jennifer Hill,0664,West Ellen,Wisconsin,Cook Islands,98783,67387e979778d5d219001234
+83,-69.6905735,-96.609807,Cox Garden,5063,Kennedybury,South Dakota,Martinique,33902,67387e97fe9fc289c3001234
+84,13.8984435,2.468437,Joshua Ridge,81936,Port Kimberlyhaven,Georgia,Singapore,07336,67387e9768d30a9594001234
+85,-47.4268285,23.743394,Kelsey Fork,565,Coxbury,Georgia,Tunisia,01735,67387e973ef815416f001234
+86,13.855766,-79.320837,Debra Point,9494,East Marisaport,Missouri,Mauritania,83438,67387e9793db85ed90001234
+87,-52.2962235,166.997411,Brandon Stravenue,75782,Beasleymouth,South Dakota,Lesotho,12687,67387e97c7e1249ffc001234
+88,13.4613555,32.739879,Robert Court,4019,East Brettburgh,Alabama,French Guiana,49437,67387e972a38a4a931001234
+89,88.4774485,-74.306816,Patricia Key,47378,East Tracie,Massachusetts,Maldives,96049,67387e977647966b73001234
+90,-70.364212,-106.693374,Martinez Ridge,5073,Katrinaborough,Montana,Macao,65217,67387e978613985ec4001234
+91,22.5520935,-54.634198,Daniel Plaza,25067,Port Christopherborough,Illinois,Fiji,01817,67387e9754229abfcf001234
+92,43.827789,-50.668045,Rush Extension,2861,Lake Julie,Utah,Malta,84221,67387e9792cc227532001234
+93,-10.105617,-136.179891,Wood Isle,3350,Sherichester,Connecticut,Burundi,40190,67387e9798dce83da5001234
+94,21.226721,71.733617,Jasmine Bypass,506,Newmanfort,New Hampshire,France,89705,67387e97f4b9ec30ad001234
+95,8.771758,-130.611063,Chase Overpass,36892,Lake Amy,Minnesota,Slovenia,34377,67387e97812b4ba287001234
+96,1.0436125,174.452054,Jeffrey Creek,5416,Lake Tiffanyview,Pennsylvania,Benin,51958,67387e9726657d5ff9001234
+97,-6.8657195,-93.215008,Dylan Canyon,1828,West Rachelberg,New Jersey,Ireland,14783,67387e97e2ef524fbf001234
+98,-17.9356545,-114.696810,Linda Motorway,93544,Port Shannon,Michigan,Norway,32765,67387e97ed3d2c2199001234
+99,-5.256275,173.725199,Randy Drives,555,Wyattbury,Idaho,Brunei Darussalam,87054,67387e97ac627ab1cc001234
+100,69.198237,-103.627805,Harrison Glen,7783,Walkerburgh,Montana,Cameroon,83559,67387e97f899139df5001234
+101,-13.710728,-110.100702,Jonathan Roads,28712,Perezstad,Utah,Kenya,47710,67387e9738b3eff8ba001234
+102,-22.844927,-47.628388,Johnson Ranch,3040,Melissachester,Georgia,Benin,89373,67387e97ec8956637a001234
+103,66.0147445,-74.716993,Oconnell Circles,619,Hallport,Indiana,Palestinian Territory,88331,67387e976974ce5ac6001234
+104,-77.509302,-83.903110,Donald Expressway,23405,West Josefurt,South Dakota,Guyana,84295,67387e97c9e1074f5b001234
+105,44.0412645,93.019747,Mitchell Extension,4472,South Kimberlytown,Pennsylvania,Madagascar,00550,67387e9765b9eea6e1001234
+106,22.0258865,31.543191,Davis Mountains,2948,Dudleyburgh,Kansas,Lithuania,39941,67387e97f0935e4cd5001234
+107,42.938853,171.634769,Stokes Landing,9563,Crystalview,North Dakota,Saint Martin,14982,67387e97a97da629b0001234
+108,-13.7865525,157.618112,Michael Well,60311,Lewishaven,Mississippi,Barbados,68598,67387e97a3c65c2974001234
+109,-41.8676785,161.716889,West Springs,91246,West Veronicatown,New Jersey,Gibraltar,86063,67387e972723d092b6001234
+110,27.3904025,76.987575,Joshua Walk,8602,South Deanna,Washington,Heard Island and McDonald Islands,61468,67387e975f93f98352001234
+111,9.374394,25.473443,Linda Harbors,683,East Seth,Illinois,Libyan Arab Jamahiriya,41027,67387e97698d51a19d001234
+112,-54.0324815,0.337395,James Run,229,Sarahside,Rhode Island,Suriname,33418,67387e977f6ffaa6bb001234
+113,43.3805695,-51.417658,Snow Prairie,9040,West Christopherstad,Washington,Brazil,73061,67387e9773278a4a86001234
+114,36.596989,-12.150205,Fletcher Inlet,1052,Kevinchester,Georgia,Comoros,36968,67387e975fd0b37cd7001234
+115,78.4503465,117.471641,Little Oval,7583,Port Toni,West Virginia,Barbados,38010,67387e972b44928ae1001234
+116,76.769577,-28.716406,Gonzalez Stream,366,South Matthew,Colorado,Sudan,54659,67387e97c45147dee7001234
+117,-15.7585195,165.133908,Hammond Crossroad,485,Jonesmouth,Colorado,El Salvador,42312,67387e97eb160de1de001234
+118,38.3111425,2.303276,Michael Canyon,9131,Herbertburgh,Colorado,Madagascar,91130,67387e975ef059938b001234
+119,70.6015585,-176.779482,Thompson Spurs,365,Taylormouth,Virginia,Sierra Leone,03772,67387e9707e1cd7dca001234
+120,28.6921435,-98.841644,Stewart Underpass,90925,Stoneton,Tennessee,Honduras,31318,67387e97da4fb5c6e9001234
+121,-62.831777,110.413174,Wade Oval,761,Lake Jennifer,Louisiana,Sri Lanka,19282,67387e974c56ff4ce4001234
+122,76.5482205,15.773152,Powers Stravenue,74672,Alexstad,Nevada,Romania,84531,67387e97a0a080f42e001234
+123,44.7542785,43.022066,Stacey Run,931,Merritthaven,North Dakota,Cuba,99640,67387e97202cb962ac001234
+124,-36.512491,108.237065,Brown Stravenue,6378,Lake Patrickberg,Vermont,Northern Mariana Islands,55827,67387e97c8ffe9a587001234
+125,-22.924753,-141.791021,Jarvis Drive,7792,Lambertmouth,Connecticut,Slovenia,35658,67387e973def184ad8001234
+126,-68.9515215,-168.498396,James Ford,036,New Gregoryton,Arizona,Korea,48682,67387e97069059b7ef001234
+127,42.4569555,-166.780391,Scott Forge,971,Sanchezhaven,North Carolina,Andorra,65439,67387e97ec5decca5e001234
+128,-34.857762,127.330024,Collins Wall,9007,Lambertside,Nevada,Luxembourg,72244,67387e9776dc611d6e001234
+129,-30.657477,100.654905,Sandra Camp,8397,South Sherry,Florida,Italy,33705,67387e97d1f491a404001234
+130,-67.767300,113.673301,Kevin Center,16122,West Laurie,Florida,Philippines,68610,67387e979b8619251a001234
+131,29.4496535,124.607310,Dorothy Isle,796,Michaelland,Kentucky,Marshall Islands,96051,67387e971afa34a7f9001234
+132,-64.9159985,-179.853166,Ashley View,8512,West Robertside,Maine,Sao Tome and Principe,10511,67387e9765ded5353c001234
+133,37.503276,157.860561,Jones Rest,405,North Ashleyview,North Carolina,Jersey,68320,67387e979fc3d7152b001234
+134,11.0725445,21.752594,Barbara Parkways,94443,Denisehaven,Connecticut,Romania,37975,67387e9702522a2b27001234
+135,28.859449,-43.382453,Kyle Throughway,83156,South Kellyview,Mississippi,Mauritania,51275,67387e977f1de29e6d001234
+136,84.8900715,-43.510070,Bryan Forges,9762,Port Timothy,Wisconsin,Algeria,39787,67387e9742a0e188f5001234
+137,-24.150591,2.871420,Stone Drive,1071,Richardburgh,Louisiana,Slovakia (Slovak Republic),92828,67387e973988c7f88e001234
+138,20.5978245,40.131130,Alan Camp,23019,Marvinborough,Texas,Bahrain,65805,67387e97013d407166001234
+139,-43.389354,133.348571,Richardson Fords,96296,Loweryshire,Arizona,Western Sahara,72091,67387e97e00da03b68001234
+140,32.832731,32.124457,Rodriguez Lock,9980,Port Gregory,Hawaii,El Salvador,44035,67387e971385974ed5001234
+141,16.861035,86.269385,Joshua Mountains,606,East Jamesborough,Michigan,Liechtenstein,53760,67387e970f28b5d49b001234
+142,22.8858305,-49.630196,Laura Plains,5989,Gabrielleburgh,Arizona,Russian Federation,62799,67387e97a8baa56554001234
+143,80.5245655,18.913700,Anna Burg,2310,Ariashaven,Arizona,Gibraltar,88522,67387e97903ce9225f001234
+144,-58.8617105,47.275027,Drew Inlet,7870,Annburgh,Washington,Aruba,59549,67387e970a09c8844b001234
+145,29.8807515,51.900937,Jennifer Run,8701,Dianefort,Arizona,Myanmar,86995,67387e972b24d49505001234
+146,-18.2347235,77.528664,Ryan Viaduct,081,East Arthurton,New York,United Arab Emirates,15591,67387e97a5e0013237001234
+147,89.2325015,-35.137179,Castro Squares,25353,Morganborough,Massachusetts,United States Virgin Islands,42845,67387e978d5e957f29001234
+148,31.165850,70.422709,David Club,63521,New Kathleen,New Jersey,Afghanistan,32633,67387e9747d1e99058001234
+149,-78.4884095,18.834217,Erika Plains,71141,Jamesshire,South Carolina,Comoros,22378,67387e97f2217062e9001234
+150,-27.052938,-172.066116,Cynthia Coves,88238,Lake Terri,Iowa,Tunisia,94270,67387e977ef605fc8d001234
+151,36.7119215,127.538185,Walton Spring,642,Kylestad,North Dakota,British Virgin Islands,99307,67387e97a8f15eda80001234
+152,13.852120,-135.818876,Schultz Overpass,725,Bonillaville,Connecticut,Cape Verde,01373,67387e9737a749d808001234
+153,26.581395,47.164008,Chelsey Ports,5713,East Christineville,Minnesota,Libyan Arab Jamahiriya,73584,67387e97b3e3e393c7001234
+154,5.988217,2.102463,Williams Tunnel,532,South Joshua,Texas,Greece,60070,67387e971d7f7abc18001234
+155,-51.7021555,-167.440178,Herbert Lodge,54283,Wilsonmouth,Minnesota,Mauritius,34287,67387e972a79ea27c2001234
+156,-58.1450995,18.220937,Joseph Springs,2569,South Kelly,Wisconsin,Svalbard & Jan Mayen Islands,54586,67387e971c9ac0159c001234
+157,78.574027,93.003708,Margaret Lake,5230,Gregoryburgh,Louisiana,United States Virgin Islands,47527,67387e976c4b761a28001234
+158,21.274827,49.045468,Alexis Estate,942,South Michaelton,Pennsylvania,Costa Rica,33214,67387e970640966322001234
+159,-24.9824755,-4.299632,Swanson Grove,746,Jessicatown,New Mexico,New Zealand,79163,67387e97140f6969d5001234
+160,56.330593,-84.470202,Stephanie Road,389,Wardshire,Ohio,Cote d'Ivoire,60581,67387e97b73ce398c3001234
+161,35.4390995,-47.845208,Jeremy Run,2591,Erikshire,New Jersey,Saudi Arabia,64639,67387e97bd4c9ab730001234
+162,70.594425,-113.833184,Donald Divide,890,North Mitchellmouth,Wisconsin,Martinique,66496,67387e9782aa4b0af3001234
+163,-40.880219,-23.562649,Foster Shore,91251,Port Eileenview,California,Bhutan,24727,67387e970777d5c17d001234
+164,-3.971647,-150.628791,Robert Plains,2191,East Kendra,West Virginia,South Georgia and the South Sandwich Islands,34841,67387e97fa7cdfad1a001234
+165,-85.389484,144.866361,Jose Ports,630,Crossland,Florida,United States Minor Outlying Islands,68435,67387e979766527f2b001234
+166,22.0816625,138.611155,Paul Cape,67744,Villegashaven,Kentucky,Costa Rica,20413,67387e977e7757b1e1001234
+167,-18.9598595,172.889954,Jenkins Plains,2070,North Jamieville,Alabama,Martinique,13044,67387e975878a7ab84001234
+168,41.077235,146.823111,Christine Groves,558,Kimberlyfort,Wyoming,Philippines,96827,67387e97006f52e910001234
+169,20.953087,66.433642,Willie Parkways,5243,Ballardhaven,Colorado,Faroe Islands,67064,67387e973636638817001234
+170,84.2552345,103.624199,Laurie Oval,6002,Parkberg,Arizona,Latvia,69654,67387e97149e9677a5001234
+171,13.3762215,-174.099742,Steven Island,361,New Lindsaymouth,Oklahoma,Lithuania,62021,67387e97a4a042cf4f001234
+172,45.328590,-168.881920,Jimmy Court,6193,Hollandside,Georgia,India,05176,67387e971ff8a7b5dc001234
+173,-12.6162995,25.233226,Pamela Vista,46529,North Haley,Vermont,Guam,93777,67387e97f7e6c85504001234
+174,53.572587,131.314788,Cochran Ford,2528,Kurtville,Nevada,United States of America,68431,67387e97bf8229696f001234
+175,4.082995,-38.136560,Brian Bridge,6466,Batesville,Maine,Antigua and Barbuda,84571,67387e978216124282001234
+176,-47.5462385,101.564346,Christopher Rest,0964,Thomasview,Georgia,Norway,85229,67387e9738af86134b001234
+177,-17.4336795,-39.209355,David Keys,2393,East James,Florida,Haiti,18212,67387e9796da2f590c001234
+178,-84.388860,-156.240502,Roman Plain,69523,Gregoryborough,Indiana,Spain,18626,67387e978f85517967001234
+179,67.4943965,37.065472,Powell Mission,384,North Anthony,Arizona,Fiji,56111,67387e978f53295a73001234
+180,-64.201716,-151.990698,Melissa Centers,88236,Payneside,Washington,Mayotte,47298,67387e97045117b0e0001234
+181,-40.1701625,85.407064,Carpenter Causeway,56887,Lake Shannonport,Florida,Saint Pierre and Miquelon,97821,67387e97fc22130974001234
+182,75.3522815,-31.030446,Davis Fork,314,New Virginiaville,Colorado,Zambia,93061,67387e974c5bde74a8001234
+183,61.564379,-88.543788,Stewart Lock,31225,New Corystad,New Jersey,Antigua and Barbuda,24315,67387e97cedebb6e87001234
+184,-72.229620,107.622244,Sara Street,802,New Shirley,Iowa,Bouvet Island (Bouvetoya),45419,67387e976cdd60ea00001234
+185,63.1768855,135.977041,Young Rest,33483,Millerchester,Massachusetts,French Southern Territories,85279,67387e97eecca5b636001234
+186,83.7478425,-156.162122,Patton Stream,43135,North Tyler,Delaware,Egypt,59755,67387e979872ed9fc2001234
+187,-32.651952,162.226934,Gray Creek,01891,East Davidton,Montana,Jamaica,70772,67387e9731fefc0e57001234
+188,-33.6135855,-7.314280,Michael Port,576,Williamsburgh,Minnesota,French Polynesia,45266,67387e979dcb88e013001234
+189,-36.004209,176.346966,Branch Island,59067,Youngstad,Rhode Island,Senegal,31634,67387e97a2557a7b2e001234
+190,30.680101,74.997986,Barbara Ville,6787,Lake Matthew,Florida,Ethiopia,10292,67387e97cfecdb276f001234
+191,-17.5219385,-98.498506,Derek Course,459,Lake Sarah,South Carolina,British Virgin Islands,45376,67387e970aa1883c64001234
+192,-88.6315375,16.543266,Williams Coves,23989,Lambertberg,Ohio,Costa Rica,62322,67387e9758a2fc6ed3001234
+193,-78.3612735,-175.200696,Jeanette Terrace,29495,East Christopherville,Utah,Antarctica (the territory South of 60 deg S),76394,67387e97bd686fd640001234
+194,-4.275658,26.891222,Nichols Lake,88188,New Janicemouth,New York,Denmark,95597,67387e97a597e50502001234
+195,77.2742015,66.430411,Travis Vista,2663,Sullivanport,Idaho,Guernsey,93762,67387e970336dcbab0001234
+196,-67.1598265,-127.427304,Nelson Junction,996,Lake Dylan,Maine,Indonesia,45070,67387e97084b6fbb10001234
+197,50.1586245,28.255059,Warren Light,28592,Bridgeschester,Massachusetts,Papua New Guinea,83602,67387e9785d8ce590a001234
+198,-82.838767,-6.107482,White Fork,069,Michaelview,Minnesota,Pitcairn Islands,59243,67387e970e65972dce001234
+199,-6.493626,145.118283,Rebecca Radial,8687,East Carrie,North Dakota,Ukraine,18912,67387e9784d9ee44e4001234
+200,-26.3097495,138.641819,Hicks Drives,95772,West Kyleburgh,Virginia,Congo,48349,67387e973644a684f9001234
+201,62.5090165,-86.162109,Davis Mission,7946,Thomasville,Rhode Island,China,13433,67387e97757b505cfd001234
+202,78.753730,62.118961,Le Coves,93105,Wallmouth,Tennessee,Ethiopia,96783,67387e97854d6fae5e001234
+203,-76.2876265,140.109771,Lopez Wall,72313,New Kimberly,Nebraska,Norway,88686,67387e97e2c0be2456001234
+204,35.2295535,54.121931,Megan Lodge,13074,Jimenezport,Illinois,Kiribati,26155,67387e97274ad4786c001234
+205,15.460838,-71.861169,Collins Locks,7737,North Dana,Florida,Papua New Guinea,44036,67387e97eae27d77ca001234
+206,63.9272185,-169.878298,Andrew Manor,75749,West Blakechester,Idaho,Italy,85585,67387e977eabe3a164001234
+207,50.473280,99.195955,Ford Oval,30602,North Brian,Tennessee,Tunisia,85903,67387e9769adc1e107001234
+208,33.003897,-128.008693,Donovan Motorway,89070,Lake Dustin,Louisiana,Thailand,27449,67387e97091d584fce001234
+209,-32.6667135,93.325291,Jackson Meadows,782,Lake Christina,North Carolina,Cote d'Ivoire,79646,67387e97b1d10e7baf001234
+210,46.2290855,-94.188516,Mary Motorway,5523,Morganmouth,Nevada,Liechtenstein,96691,67387e976f3ef77ac0001234
+211,49.0026275,-2.292368,Angela Squares,8770,Port James,New Mexico,Ethiopia,88486,67387e97eb16372791001234
+212,-75.671827,164.167216,Abigail Roads,7135,New Jimmy,Utah,Timor-Leste,55410,67387e971534b76d32001234
+213,32.715155,58.636238,Valencia Hollow,072,Richardmouth,Virginia,Aruba,05629,67387e97979d472a84001234
+214,-25.8787405,-151.467681,Ricky Field,492,Lloydside,Vermont,Saint Lucia,20083,67387e97ca46c1b951001234
+215,-76.316718,3.745819,Anthony Landing,954,South Sethborough,New York,Nicaragua,70800,67387e973b8a614226001234
+216,-7.8418985,84.582706,Ellen Spurs,42770,Dustinville,New Mexico,Guatemala,65092,67387e9745fbc6d3e0001234
+217,16.238517,52.977464,Kim Walk,466,Huffmanburgh,Kansas,Svalbard & Jan Mayen Islands,38001,67387e9763dc7ed101001234
+218,11.576818,-21.967755,Judy Cape,1225,South Danielle,Oklahoma,United Kingdom,61272,67387e97e96ed478da001234
+219,-28.1287085,-72.243288,Rogers Shores,62145,Port Elizabethhaven,South Carolina,Northern Mariana Islands,50490,67387e97c0e190d826001234
+220,-51.5706445,-142.213560,Shannon Spurs,733,Robbinsmouth,California,Russian Federation,03494,67387e97ec8ce6abb3001234
+221,12.9712725,152.443420,Derek Stravenue,5479,Sandovalfort,West Virginia,Turks and Caicos Islands,55687,67387e97060ad92489001234
+222,-59.328077,-145.324096,Natalie Spring,490,Brownchester,Kentucky,Equatorial Guinea,42276,67387e97bcbe3365e6001234
+223,75.014395,-107.903033,Lindsey Harbor,861,Langfurt,New York,New Zealand,39798,67387e97115f895031001234
+224,52.5096195,-102.002378,Pugh Ford,49847,North Andrew,Vermont,Ireland,83475,67387e9713fe9d8431001234
+225,-64.1929135,-65.540887,Austin Canyon,49934,Georgefort,Wyoming,Austria,48539,67387e97d1c38a09ac001234
+226,63.5335845,-123.012578,Lewis Mews,29117,Baileychester,Mississippi,Mexico,03092,67387e979cfdf10e8f001234
+227,-47.110655,-107.802717,Katherine Freeway,99801,New Bryantown,Kansas,Guinea-Bissau,32985,67387e97705f217283001234
+228,53.5349955,134.872908,Johnny Camp,14778,Santiagoton,South Dakota,Samoa,47832,67387e9774db120f0a001234
+229,-33.566138,67.222780,Mary Trail,5167,Curryfort,Nevada,Belgium,20661,67387e9757aeee35c9001234
+230,-83.4419875,87.736201,Patrick Plaza,388,East John,Minnesota,Bouvet Island (Bouvetoya),77031,67387e976da9003b74001234
+231,17.220803,-82.418108,Ronald Ports,37634,Mistyview,North Carolina,Korea,05695,67387e979b04d15284001234
+232,-4.908340,-54.110535,Curry Landing,264,Morganview,California,Saint Helena,22508,67387e97be83ab3ecd001234
+233,-34.557521,120.454461,Green Fort,9079,Bradleyfort,Colorado,United States Minor Outlying Islands,22987,67387e97e165421110001234
+234,47.229188,-41.532086,Jackson Manor,540,East Scottstad,Alabama,Norway,59719,67387e97289dff0766001234
+235,-39.9153005,118.605040,Erika Park,256,Port Alexfurt,Montana,Martinique,44880,67387e97577ef1154f001234
+236,67.315890,-170.527284,Mcdowell Glens,388,Ericshire,North Carolina,Bahamas,58854,67387e9701161aaa0b001234
+237,-50.811152,-52.210087,Price Rapid,445,New Christopher,Virginia,Dominican Republic,20299,67387e97539fd53b59001234
+238,-79.9218555,-90.609823,Lisa Fords,584,Garciamouth,Michigan,Kiribati,86713,67387e97ac1dd209cb001234
+239,-82.932747,9.277557,Buchanan Crossroad,6232,Dominguezfort,Washington,Pitcairn Islands,40928,67387e97555d6702c9001234
+240,23.416910,33.808542,Bryan Courts,876,East Luke,South Dakota,Congo,20940,67387e97335f535208001234
+241,-5.322127,21.279112,Cynthia Drive,257,East Shawn,Montana,Ghana,45449,67387e97f340f1b1f6001234
+242,-77.7454775,-133.562790,Silva Club,31039,North Laurieland,Michigan,Kuwait,44952,67387e97e4a6222cdb001234
+243,-69.9102295,152.330291,Hernandez Turnpike,0477,West Sarahland,South Dakota,Lithuania,37338,67387e97cb70ab3756001234
+244,-63.3207325,150.177253,David Burgs,9205,Taylorfort,Ohio,Afghanistan,21749,67387e979188905e74001234
+245,-48.271305,179.614684,Nathaniel Divide,0537,New Ericview,Arkansas,New Caledonia,61474,67387e970266e33d3f001234
+246,-19.050331,-142.599397,Steven Stravenue,63219,Tinamouth,Iowa,Hungary,82422,67387e9738db3aed92001234
+247,-23.3294805,-140.248130,Ashlee Park,1885,West Christina,Texas,Central African Republic,69002,67387e973cec07e9ba001234
+248,66.8372885,-43.333963,Randy Place,475,Hillstad,Washington,Cyprus,94767,67387e97621bf66ddb001234
+249,-53.317188,-129.798823,Stephen Springs,40648,Elizabethton,Wisconsin,Burundi,65353,67387e97077e29b11b001234
+250,64.640615,-64.215195,Allen Unions,4510,South Kevin,Kentucky,Gambia,71960,67387e976c9882bbac001234
+251,73.9716395,-129.723592,Linda Freeway,469,Garybury,Kansas,Seychelles,78067,67387e9719f3cd308f001234
+252,40.821013,83.854224,Jeffrey Lock,0243,North Brooketown,South Dakota,Finland,16334,67387e9703c6b06952001234
+253,5.791546,68.323562,Tristan Parks,498,East Jeremy,Pennsylvania,Uruguay,29945,67387e97c24cd76e1c001234
+254,-58.1102905,-146.251979,Reynolds Views,6717,Davidmouth,Massachusetts,Tonga,60541,67387e97c52f1bd66c001234
+255,40.0072495,-132.370609,Taylor Glens,009,South Ryanview,Georgia,Taiwan,91011,67387e97fe131d7f5a001234
+256,85.4951165,137.109163,Acosta Alley,67605,Levytown,Nevada,Guatemala,47733,67387e97f718499c1c001234
+257,-53.895324,-50.026399,Stanley Square,9752,West Stevenhaven,Montana,Portugal,74591,67387e97d96409bf89001234
+258,-31.8103295,-30.645319,Amanda Village,734,Drakemouth,North Carolina,French Polynesia,00585,67387e97502e4a1693001234
+259,-27.2422485,124.099500,Fleming Drive,1972,Port Shawnton,Florida,Tajikistan,82210,67387e97cfa0860e83001234
+260,-1.268086,175.130322,Miguel Shore,1945,Lake Christina,New Mexico,Latvia,80050,67387e97a4f23670e1001234
+261,17.6419155,-78.740827,Zimmerman Roads,16687,Kevinfort,Utah,Hong Kong,54793,67387e97b1a59b315f001234
+262,-77.206075,-36.018622,Latoya Lodge,796,Williamstown,Pennsylvania,Saint Vincent and the Grenadines,38839,67387e9736660e5985001234
+263,-61.054159,168.089724,Elizabeth Mountain,56464,Lindaton,Nebraska,Cameroon,54481,67387e978c19f571e2001234
+264,33.061941,28.806673,David Roads,037,Carolhaven,Nebraska,South Africa,30547,67387e97d6baf65e0b001234
+265,-31.2454975,127.229060,Moreno Shores,8580,New Sean,West Virginia,Maldives,68370,67387e97e56954b4f6001234
+266,-58.8713755,-117.777349,Jennifer Row,8464,Torresfort,Ohio,Palestinian Territory,72559,67387e97f7664060cc001234
+267,-14.138714,101.217460,English Fields,9850,Marioburgh,New Mexico,Guyana,92164,67387e97eda80a3d5b001234
+268,50.016713,-59.831167,Shane Cove,3325,Josephburgh,New Jersey,Chile,87897,67387e978f121ce07d001234
+269,16.5932205,19.562268,Rivas Stravenue,515,Petershire,Washington,Switzerland,54370,67387e9706138bc5af001234
+270,89.213782,54.255922,Kelsey Lodge,1440,West Patriciaburgh,Oklahoma,Ecuador,34844,67387e9739059724f7001234
+271,-20.390499,179.578452,Susan Green,21543,Arnoldhaven,Georgia,Turkey,28709,67387e977f100b7b36001234
+272,-8.381422,145.020635,James Keys,70944,Lake Kevin,Louisiana,China,43780,67387e977a614fd06c001234
+273,-4.3048875,178.266789,Larry Crossing,2685,Kevinstad,Montana,Azerbaijan,68500,67387e974734ba6f3d001234
+274,5.555520,31.927004,Tucker Cliff,08329,North Jenniferland,Hawaii,British Virgin Islands,78879,67387e97d947bf06a8001234
+275,-71.5964035,-26.303050,Matthew Villages,62586,New Alexander,New Jersey,Eritrea,33008,67387e9763923f49e5001234
+276,-58.259750,82.027348,Joshua Station,956,Ponceburgh,Idaho,Trinidad and Tobago,51732,67387e97db8e1af0cb001234
+277,-73.675183,118.313734,Daniel Cape,783,South Jesse,Massachusetts,Cyprus,54461,67387e9720f07591c6001234
+278,37.1138175,-20.352351,Mary Pine,015,Keithside,California,Turks and Caicos Islands,00520,67387e9707cdfd2337001234
+279,-89.7487835,112.927556,Phillips Plain,3690,Lake Christopher,Hawaii,Dominican Republic,53004,67387e97d395771085001234
+280,73.8227515,59.919369,Keith Drive,732,Lake Johnfort,New Jersey,Niger,39878,67387e9792c8c96e4c001234
+281,35.9330965,54.425038,Walker Extension,728,Smithburgh,Arkansas,Syrian Arab Republic,60989,67387e97e3796ae838001234
+282,-65.706746,-145.862463,Dylan Knoll,688,Riveraton,Montana,Kiribati,89328,67387e976a9aeddfc6001234
+283,-69.311039,124.397287,Pearson Street,5895,New Louis,Massachusetts,Poland,40749,67387e970f49c89d1e001234
+284,42.9591365,-136.973045,Kevin Inlet,2138,West Douglasstad,Pennsylvania,Dominican Republic,33739,67387e9746ba9f2a69001234
+285,-86.417890,-98.899478,Kimberly Freeway,830,South Katherineview,Tennessee,Honduras,02215,67387e970e01938fc4001234
+286,22.960302,-116.085891,Douglas Motorway,07224,Lake Philipchester,South Carolina,Israel,87027,67387e9716a5cdae36001234
+287,-67.8516305,46.774367,Manuel Springs,56947,East Brandiview,Missouri,Mongolia,39498,67387e97918317b579001234
+288,-78.8369625,-127.821469,Wilson Rest,05360,North Daniel,Michigan,Nauru,20588,67387e9748aedb8880001234
+289,-37.081135,167.851084,Rodriguez Terrace,592,New Christopherhaven,Florida,Central African Republic,57148,67387e97839ab46820001234
+290,-42.975704,-151.474173,Sylvia Rue,958,Lake Anthony,Maine,Guernsey,07627,67387e97f90f2aca5c001234
+291,20.866792,-179.872264,John Branch,44104,Rebeccahaven,Louisiana,Barbados,02852,67387e979c838d2e45001234
+292,57.126265,-72.649193,Kyle Highway,5550,Lake Gregorytown,South Dakota,Germany,75527,67387e971700002963001234
+293,-23.636603,-173.457827,Michael Via,5700,West Davidton,Maryland,Hong Kong,64726,67387e9753c3bce66e001234
+294,27.321207,63.947174,Davis Crescent,056,Sarahfurt,Louisiana,Andorra,55171,67387e976883966fd8001234
+295,-23.0230165,40.054570,Amber Rapid,31689,Port Roger,Oklahoma,Mali,63207,67387e9749182f81e6001234
+296,-31.9049225,112.877713,Ashley Meadows,42525,Griffithberg,New Mexico,Austria,40551,67387e97d296c101da001234
+297,76.554427,21.882963,Christopher Spur,68366,East Travis,New Jersey,Argentina,99149,67387e979fd81843ad001234
+298,24.839958,77.801183,Gibson Terrace,0344,North Colleen,Alabama,Congo,87950,67387e9726e359e838001234
+299,81.847010,-12.874175,Paul Rapids,98155,New Gina,Arizona,Suriname,50522,67387e97ef0d3930a7001234
+300,-69.607622,-95.401607,Ashley Spring,819,East Christina,Maine,French Guiana,24889,67387e9794f6d7e04a001234
+301,-69.062830,102.290151,Johnson Radial,315,South Michele,Arkansas,Albania,88152,67387e9734ed066df3001234
+302,80.1249645,61.104616,Andrews Groves,510,Burtonton,Delaware,Mali,65380,67387e97577bcc914f001234
+303,43.5640975,162.434689,Tamara Greens,580,South Darinport,Rhode Island,Burundi,06005,67387e9711b9842e0a001234
+304,-47.6650215,57.836788,Sherman Club,5068,Wrightberg,New Mexico,Maldives,12092,67387e9737bc2f75bf001234
+305,76.5660055,-153.269010,Armstrong Crossing,2312,East Robertmouth,Minnesota,Maldives,50566,67387e97496e05e1ae001234
+306,18.4277515,137.183340,Parker Neck,7396,Wallaceshire,Oklahoma,Gabon,60482,67387e97b2eb734903001234
+307,2.618160,-156.181473,Jennifer Summit,4743,Kingville,California,Saint Lucia,77144,67387e978e98d81f82001234
+308,-74.3114245,97.781286,Tammy Stravenue,837,North Amber,Wyoming,Hungary,74233,67387e97a8c88a0055001234
+309,79.593028,8.513277,Paul Dam,57042,East Jonshire,Ohio,Costa Rica,62393,67387e97eddea82ad2001234
+310,-24.8094235,-77.430117,Johnson Haven,5161,West William,Nebraska,Moldova,07585,67387e9706eb61b839001234
+311,-82.1884535,-66.828650,Nicholas Island,174,West Charles,Alabama,Mongolia,35134,67387e979dfcd5e558001234
+312,-85.3163155,-156.647137,George Route,18594,Williammouth,Delaware,Uganda,88662,67387e97950a4152c2001234
+313,-21.584212,-112.746435,Garcia Place,981,Weaverborough,Texas,Grenada,08268,67387e97158f3069a4001234
+314,36.3456565,-111.526495,Justin Plain,80178,Mccoyberg,Iowa,Mali,57430,67387e97758874998f001234
+315,24.089131,67.300286,Susan Groves,63849,Port Connie,Alaska,Trinidad and Tobago,79212,67387e97ad13a2a07c001234
+316,71.7606225,-43.659999,Ronald Well,543,Alejandraburgh,Nevada,Nicaragua,35461,67387e973fe94a0023001234
+317,-60.6936415,140.914650,Tara Stravenue,85331,Gardnerfort,Vermont,Turks and Caicos Islands,59160,67387e975b8add2a5d001234
+318,78.770333,45.090442,Christine Estate,75042,Mccluremouth,West Virginia,Liechtenstein,11212,67387e97432aca3a1e001234
+319,51.7270215,-14.197558,King Burgs,118,North Edward,Kansas,Vietnam,46066,67387e978d3bba7425001234
+320,21.991559,-94.821743,Jennifer Stream,3480,Port Angelaborough,Kentucky,Hong Kong,59520,67387e97320722549d001234
+321,-89.2678295,37.870746,Julie Manors,572,East Taylor,California,Mongolia,59027,67387e97caf1a3dfb5001234
+322,-52.8062005,-97.774930,Phillips Camp,79017,Smithberg,Wisconsin,Saint Pierre and Miquelon,95942,67387e975737c6ec2e001234
+323,-3.1249035,-81.273955,Brittany Park,75024,New Robertville,Mississippi,Bahrain,98963,67387e97bc6dc48b74001234
+324,-45.528708,118.406462,Stephanie Bridge,368,Zacharyland,Virginia,Sri Lanka,57112,67387e97f2fc990265001234
+325,-17.8156305,-71.907240,Lynn Lodge,3030,Romerobury,Utah,Bermuda,69953,67387e9789f0fd5c92001234
+326,-77.5718125,-68.461906,Cindy Fields,486,Jasonstad,Hawaii,Israel,45657,67387e97a666587afd001234
+327,-81.056910,157.112791,Hunt Inlet,6163,Lake Debbiefurt,North Dakota,Micronesia,73145,67387e97b83aac23b9001234
+328,-69.2119575,-160.470042,Lisa Loaf,447,South Patrickbury,Minnesota,Maldives,96738,67387e97cd00692c3b001234
+329,57.618454,-15.863288,Harvey Port,0439,Lindaberg,New Jersey,Holy See (Vatican City State),34288,67387e976faa8040da001234
+330,-53.751660,-36.318600,Jennifer Station,65649,Dustinfurt,Mississippi,Papua New Guinea,04789,67387e97fe73f687e5001234
+331,-5.0478555,87.694297,Renee Point,1605,Flowersland,Nebraska,Nepal,14530,67387e976da37dd313001234
+332,-70.603831,96.691472,Clayton Stravenue,27460,Kiddshire,Oklahoma,Nauru,29433,67387e97c042f4db68001234
+333,73.797702,-115.976980,Nathan Bridge,34020,Lake Michaelstad,Mississippi,Mauritania,90589,67387e97310dcbbf4c001234
+334,-70.370200,82.203398,Peter Burgs,58463,Sullivanshire,Texas,Kazakhstan,20339,67387e972f2b265625001234
+335,25.9312195,-141.872609,Michele Brooks,48411,North Lauraview,Rhode Island,Netherlands,35597,67387e97f9b902fc32001234
+336,-44.679457,-156.982429,Patrick Spur,38256,Walkerborough,New Hampshire,Wallis and Futuna,01374,67387e976855456e2f001234
+337,68.6570055,125.138200,Sharon Greens,837,Sandraborough,Iowa,Djibouti,11969,67387e97357a6fdf76001234
+338,-10.4513195,-24.721931,Isaiah Gateway,7235,Port Kathryn,Hawaii,North Macedonia,46772,67387e97819f46e52c001234
+339,76.2215245,-13.143572,Maynard Fords,372,Port Robert,South Dakota,Sao Tome and Principe,33927,67387e9704025959b1001234
+340,75.243601,158.927958,Amber Hollow,071,Emilyside,Oregon,Malta,50672,67387e9740008b9a53001234
+341,-86.1083545,-53.452513,Jared Estates,9260,New Sarahport,South Carolina,Antigua and Barbuda,46030,67387e973dd48ab31d001234
+342,81.857888,-66.881751,Shaw Greens,837,Lake Danielport,Kentucky,Mongolia,05979,67387e9758238e9ae2001234
+343,44.4029165,110.895548,Riley Port,922,Eatonborough,Montana,Madagascar,99166,67387e973ad7c2ebb9001234
+344,36.145561,163.209502,Patrick Locks,6132,Triciastad,Michigan,France,90215,67387e97b3967a0e93001234
+345,-25.5327165,102.398867,Jessica Street,45619,Port Hayleymouth,West Virginia,Vietnam,62509,67387e97d81f9c1be2001234
+346,33.327915,128.342719,Danielle Villages,06093,New Jasonborough,California,Somalia,50055,67387e9713f9896df6001234
+347,-60.274106,-76.614655,Mendoza Trafficway,736,North Dorischester,Michigan,Guinea-Bissau,76794,67387e97c5ff2543b5001234
+348,50.760242,164.120890,Washington Field,755,East Donaldmouth,Tennessee,Turks and Caicos Islands,64210,67387e9701386bd6d8001234
+349,-21.4712875,51.648240,Keith Pine,8322,Kathleenberg,Louisiana,Tunisia,08193,67387e970bb4aec171001234
+350,47.114633,97.696233,Miller Ramp,876,Jamesland,Kansas,Mongolia,52162,67387e979de6d14fff001234
+351,-29.138158,-6.894369,Sandoval Ford,8761,Walkerhaven,Nevada,New Zealand,06320,67387e97efe937780e001234
+352,-18.317681,60.694814,Brewer Village,0655,West Anthony,Wisconsin,Saudi Arabia,01277,67387e97371bce7dc8001234
+353,76.1010975,-179.042752,Carly Parkway,253,Shannonfurt,New York,Bahamas,98801,67387e97138bb06965001234
+354,87.873207,-83.737102,Phelps Key,2442,Lake Angelafort,Illinois,Reunion,09231,67387e978dd48d6a2e001234
+355,-71.495547,67.607720,Wilson Springs,73645,East Rachel,Hawaii,Austria,37809,67387e9782cec96096001234
+356,-12.795089,-26.029732,Heather Lights,318,Christopherside,Nevada,Maldives,69684,67387e976c524f9d5d001234
+357,-27.914989,41.201295,Ethan Light,2704,Debratown,Utah,Saint Vincent and the Grenadines,68494,67387e97fb7b9ffa54001234
+358,63.0003865,-14.465299,Miller Parks,084,Wilsonmouth,Michigan,Cayman Islands,48803,67387e97aa942ab2bf001234
+359,39.8877575,82.596310,Webb Ridges,075,Lake Jessicamouth,Virginia,Saint Vincent and the Grenadines,97653,67387e97c058f544c7001234
+360,68.517694,-145.994550,Henry Shores,6120,East Christopherchester,Indiana,Paraguay,63578,67387e97e7b24b112a001234
+361,-75.4437795,104.886951,Reynolds Crescent,63153,North Michael,Hawaii,Guernsey,14565,67387e9752720e0035001234
+362,4.370884,43.887278,Brown Plain,86776,Davidland,Nevada,Tonga,37249,67387e97c3e878e27f001234
+363,-11.7198745,-146.095971,Pineda Junctions,9585,Adrianmouth,Mississippi,Timor-Leste,55385,67387e9700411460f7001234
+364,-46.640613,45.846434,Gomez Station,216,Hernandezville,Montana,British Virgin Islands,05316,67387e97bac9162b47001234
+365,56.1528655,-147.976584,Hunt Circle,7024,Emilystad,California,Pakistan,75506,67387e979be40cee5b001234
+366,75.601828,0.424875,Ortiz Route,569,East James,Idaho,Honduras,24847,67387e975ef698cd9f001234
+367,49.463313,141.608461,Robert Roads,94202,East Amy,West Virginia,Palau,95119,67387e9705049e90fa001234
+368,13.467197,123.563250,Richard Terrace,09888,Tranview,Nevada,Switzerland,64996,67387e97cf004fdc76001234
+369,64.416627,-84.122091,Martin Squares,55457,Patelfort,Oregon,Malawi,10874,67387e970c74b7f784001234
+370,-80.906715,168.497848,Miller Parks,850,Port Stephen,Missouri,Bermuda,03384,67387e97d709f38ef7001234
+371,72.7717695,-122.035136,Lauren Brooks,1411,Jonathanberg,Nebraska,Iran,67585,67387e9741f1f19176001234
+372,-52.9231105,-159.226047,Kimberly Ford,30949,Josephberg,Indiana,Korea,00565,67387e9724b16fede9001234
+373,-21.2528165,-30.168235,Merritt Divide,8162,West Joseph,Hawaii,Malawi,84949,67387e97ffd52f3c7e001234
+374,51.687569,145.222142,Burton Prairie,66780,Castanedafort,Ohio,Jersey,45998,67387e97ad972f10e0001234
+375,26.7651005,108.571379,Jeremiah Gateway,20103,Lake Matthewhaven,Pennsylvania,Belarus,57721,67387e97f61d694746001234
+376,-44.602169,152.458674,Victoria Village,300,Port Erika,New York,Argentina,41586,67387e97142949df56001234
+377,16.772065,-163.690064,Wright Ranch,8574,East Eddie,Wisconsin,Equatorial Guinea,75342,67387e97d34ab169b7001234
+378,84.3562815,138.333758,Thomas Run,363,Ramseyborough,Delaware,Kiribati,86708,67387e978bf1211fd4001234
+379,11.5093565,-21.519316,Elizabeth Pass,6516,Danashire,Iowa,Myanmar,50591,67387e97a02ffd91ec001234
+380,-72.9172645,-11.579897,Lang Trace,61104,Saraland,Kansas,Reunion,96542,67387e97bca82e41ee001234
+381,68.531917,121.875069,Mallory Walks,113,Port Ashleefort,Ohio,Myanmar,42941,67387e9700ec53c468001234
+382,3.695867,-99.444943,Stephen Trail,380,Mendezville,Georgia,Greece,41322,67387e974f6ffe13a5001234
+383,-71.754769,86.703713,Michelle Coves,81666,New John,Colorado,Madagascar,77536,67387e97beed13602b001234
+384,-24.8376405,151.046813,Michele Lane,2668,Wallacehaven,Texas,Sri Lanka,23855,67387e970584ce565c001234
+385,-67.651125,72.411329,Jones Mews,17740,Martinezton,New York,Hungary,47969,67387e97dc912a253d001234
+386,61.1617465,175.705679,Jodi Flats,942,Harrisberg,Louisiana,Bolivia,44874,67387e9739461a19e9001234
+387,-79.361307,82.307526,Jennifer Inlet,31087,Danielborough,Illinois,Slovakia (Slovak Republic),30986,67387e978efb100a29001234
+388,55.7911795,122.783791,Jones Knoll,28902,West Breannafort,Vermont,Brazil,44707,67387e97d9fc5b73a8001234
+389,-74.9961875,92.781810,Olson Summit,6509,Victoriaton,Vermont,Heard Island and McDonald Islands,37009,67387e97c86a7ee3d8001234
+390,8.000376,162.679992,James Roads,219,Adamsfort,Kansas,Saint Barthelemy,97543,67387e97a01a0380ca001234
+391,-80.795455,51.282953,Philip Union,78004,Annaview,Maine,Iceland,63255,67387e975a4b25aaed001234
+392,-77.445139,158.088040,Foster Views,5941,Fowlertown,Iowa,Jamaica,65928,67387e97f73b76ce89001234
+393,73.223885,80.877140,Gregory Estates,368,Port Josephfort,Wyoming,Liberia,67690,67387e9770c639df5e001234
+394,64.3761905,66.625782,Lauren Ridge,3303,Markstad,North Carolina,Peru,37557,67387e9728f0b86459001234
+395,41.151499,-165.886576,Carter Fort,77705,East Brian,Colorado,American Samoa,25852,67387e971543843a47001234
+396,-69.353429,59.643382,Steven Meadow,6544,East Cheryl,Missouri,British Indian Ocean Territory (Chagos Archipelago),50428,67387e97f8c1f23d6a001234
+397,-24.208086,60.291192,Hunter Avenue,574,Kirkberg,Alabama,Liechtenstein,53746,67387e97e46de7e1bc001234
+398,76.926853,86.698972,Michael Mill,32649,Morrowborough,Kentucky,Antigua and Barbuda,37901,67387e97b7b16ecf8c001234
+399,72.518574,-104.412338,Jonathan Fall,4211,Benjaminfort,California,Moldova,22220,67387e97352fe25daf001234
+400,-21.8367545,12.893699,Bradley Mountain,3300,Michaelland,California,Bosnia and Herzegovina,03341,67387e9718d8042386001234
+401,-52.661332,48.871478,Aaron Crossroad,85917,Millerberg,Iowa,Guinea-Bissau,75106,67387e97816b112c61001234
+402,20.326959,-134.867986,Denise Rue,440,Port Eugene,Vermont,Comoros,71136,67387e9769cb3ea317001234
+403,25.601618,134.635915,Mary Run,84272,South Michaelport,Florida,Seychelles,26037,67387e97bbf94b34eb001234
+404,-89.8583765,-178.427493,Rodriguez Union,80759,Normanside,West Virginia,Bermuda,05172,67387e974f4adcbf8c001234
+405,-62.900412,87.710574,Gray Trafficway,116,Port Davidburgh,Tennessee,Jamaica,44772,67387e97bbcbff5c1f001234
+406,-80.0933375,95.404593,Zachary Pine,39209,Williammouth,Georgia,Burkina Faso,87025,67387e978cb22bdd0b001234
+407,81.504384,161.498113,Owen Station,65231,North Christine,Arizona,Djibouti,74462,67387e97f4f6dce2f3001234
+408,-72.5363135,174.307641,Hernandez Green,3359,Floresborough,New York,Cocos (Keeling) Islands,33450,67387e970d0fd7c6e0001234
+409,16.442899,-125.916845,Nelson Forges,1749,Carsonburgh,Minnesota,El Salvador,48660,67387e97a96b65a721001234
+410,-62.4755095,65.508867,Rhonda Crest,11321,West Grace,Iowa,Peru,03234,67387e971068c6e4c8001234
+411,10.9903705,56.190437,Wolf Rapids,5825,Lindseyfurt,Utah,Djibouti,45328,67387e9717d63b1625001234
+412,72.9995975,-173.696963,Decker Vista,014,Gonzalezchester,Mississippi,Suriname,64898,67387e97b9228e0962001234
+413,-52.6965195,105.928964,Linda Manor,114,Lake Paul,Texas,Jamaica,23523,67387e970deb1c5481001234
+414,-58.7790425,88.724229,Brian Mission,074,East Brittany,Texas,Heard Island and McDonald Islands,43097,67387e9766808e327d001234
+415,-56.3402305,-143.609562,Leonard Vista,0567,Grantburgh,Kansas,Bhutan,39888,67387e9742e7aaa88b001234
+416,-47.7208655,164.141531,Brown Fields,610,Hahnburgh,Texas,Hong Kong,82715,67387e978fe0093bb3001234
+417,2.1336075,-103.654064,Burton Junction,864,South Samanthaport,New York,Brazil,57545,67387e9741ae36ecb9001234
+418,74.3651175,45.829763,Alexandra Pine,5619,Burchtown,Alaska,Anguilla,69621,67387e97d1f255a373001234
+419,-26.948778,21.084197,Amanda Row,6128,Collinsfurt,Ohio,Papua New Guinea,14941,67387e977eacb53257001234
+420,-46.4615635,143.460056,Montgomery Hill,9308,Cooperchester,Georgia,Monaco,78078,67387e97b6f0479ae8001234
+421,53.2986615,59.579896,Blake Pines,911,Harrisland,Mississippi,Liberia,08015,67387e97e0c641195b001234
+422,16.2917235,-87.126859,Pena Pike,0230,Lake Rickyshire,Louisiana,Pitcairn Islands,05158,67387e97f85454e827001234
+423,-38.5542015,78.821528,Singh Rue,89899,North Jennifer,Minnesota,Western Sahara,89881,67387e97faa9afea49001234
+424,-64.3556855,-63.780945,Lindsey Turnpike,64956,Shannonbury,New Jersey,Bolivia,46307,67387e973c7781a36b001234
+425,-18.7138135,-139.438318,Crystal Ville,497,Edgarstad,Colorado,Albania,51963,67387e9725b2822c2f001234
+426,-19.4368495,9.549800,Nelson Harbors,5303,Priceburgh,Connecticut,Saint Lucia,68564,67387e976ecbdd6ec8001234
+427,85.261865,-116.831112,Eric Lock,563,Joycechester,Wisconsin,Gibraltar,01271,67387e9718997733ec001234
+428,1.618737,64.045309,Smith Glens,3059,Tannerside,Pennsylvania,Paraguay,90709,67387e978d7d8ee069001234
+429,-54.0021425,107.188192,Anthony Ridge,61686,Reidmouth,North Dakota,United States Virgin Islands,55178,67387e9775fc093c0e001234
+430,33.365716,-136.498237,Holder Flats,65829,Mirandaview,New Mexico,Belgium,10023,67387e97f74909ace6001234
+431,40.8380915,179.879026,Castillo Spur,417,Lake Dianastad,Massachusetts,Botswana,90618,67387e9766368270ff001234
+432,83.342105,112.075079,Elizabeth Falls,569,West Ashley,Utah,Trinidad and Tobago,81919,67387e97248e844336001234
+433,71.7500825,138.411450,Traci View,813,Brianstad,Arizona,Germany,72203,67387e97019d385eb6001234
+434,-56.7424865,-105.085024,Elizabeth Turnpike,5113,Brownbury,Arizona,Saint Vincent and the Grenadines,45241,67387e97a49e9411d6001234
+435,89.212393,-24.640472,Jerry Squares,9348,Lake Anitafurt,Wyoming,South Georgia and the South Sandwich Islands,36436,67387e97ddb30680a6001234
+436,-87.6289345,114.488634,Victoria Track,8071,South Michael,Washington,Suriname,06637,67387e972421fcb126001234
+437,-58.165942,68.958243,Sanders Highway,751,Ellisborough,West Virginia,Taiwan,11095,67387e97fccb60fb51001234
+438,60.774586,-7.076199,Jesus Well,211,Charlesberg,Illinois,Mozambique,37412,67387e971651cf0d2f001234
+439,36.207660,114.477089,Jeffrey Locks,9339,North Lucasborough,Kentucky,South Georgia and the South Sandwich Islands,21056,67387e97eed5af6add001234
+440,67.810323,155.433321,Shepherd Loaf,1156,New Charlesshire,South Carolina,San Marino,19831,67387e97a8abb4bb28001234
+441,68.7944885,100.298250,Jessica Ridges,9472,Smithfurt,Maryland,Samoa,36302,67387e9715d4e891d7001234
+442,-74.4796955,-36.484012,Andrea Union,88860,Michaelmouth,Arizona,Korea,60314,67387e97c203d8a151001234
+443,17.898445,71.660133,Erika Lodge,06411,Lawrenceville,Mississippi,Oman,47814,67387e9713f3cf8c53001234
+444,-19.8165235,-71.721696,Fischer Stravenue,59977,New Barryhaven,Connecticut,Bhutan,43879,67387e97550a141f12001234
+445,75.565812,-6.176419,Heidi Inlet,5319,Ianberg,Vermont,Anguilla,98402,67387e9767f7fb873e001234
+446,-15.997861,173.945221,Vanessa Extension,14750,Justinfurt,Wyoming,United Kingdom,95827,67387e971a5b1e4daa001234
+447,39.2750205,26.274677,Steven Row,7147,Davisfurt,Arizona,Uzbekistan,91939,67387e979a96876e2f001234
+448,-72.2495835,149.288580,Renee Tunnel,757,Port Rachel,Illinois,Lesotho,42228,67387e979b70e8fe62001234
+449,1.3432615,152.748018,Doris Pine,11601,Paulville,Illinois,Mongolia,48870,67387e97d61e4bbd63001234
+450,-36.997691,-160.815516,Hammond Parkway,8952,Armstrongbury,Connecticut,Saint Martin,96959,67387e97f5f8590cd5001234
+451,3.835830,127.821462,Terri Harbor,83611,New Dalton,South Dakota,Ukraine,05529,67387e97941e1aaaba001234
+452,0.494340,58.790072,Julie Parkways,0787,East Rubenport,New Mexico,Niger,64989,67387e979431c87f27001234
+453,58.595956,125.701655,Ramos Drive,4440,East Brian,Rhode Island,Senegal,20276,67387e9749ae49a23f001234
+454,89.6049295,16.502641,Robinson Gateway,8398,Jacobsonhaven,Mississippi,Italy,03777,67387e97e44fea3bec001234
+455,-54.454745,37.006069,Joyce Coves,48077,Thomasside,Massachusetts,Mayotte,03232,67387e97821fa74b50001234
+456,-39.574649,78.272696,Bonnie Rapids,761,Josetown,California,Panama,90918,67387e97250cf8b51c001234
+457,-81.9226515,-129.808469,Patrick Crescent,871,Port Natasha,Minnesota,Gambia,02133,67387e9742998cf32d001234
+458,70.4327485,-140.400918,David Plaza,70762,Connerstad,Iowa,Burundi,80251,67387e97d07e70efcf001234
+459,-76.2801515,119.284482,Stein Walks,91857,Castrochester,Alabama,Armenia,65866,67387e977fe1f8abaa001234
+460,0.818124,37.293172,Morris Fords,48790,Alfredtown,Kentucky,Korea,88555,67387e9798b2979500001234
+461,-14.183728,161.556251,Morgan Falls,96533,Josephport,Nebraska,Poland,15259,67387e970353ab4cbe001234
+462,2.5491695,-164.817244,Nichole Falls,633,East Christine,Maine,Lesotho,21460,67387e9751d92be1c6001234
+463,-14.0157455,70.180193,Sanchez Walks,835,Amandamouth,Michigan,Lao People's Democratic Republic,75620,67387e97428fca9bc1001234
+464,-49.581428,1.109110,Lowe Estates,0404,East Carolyn,Washington,Timor-Leste,19455,67387e97f1b6f2857f001234
+465,-57.9112915,-157.278536,Reynolds Loop,71142,Kristenfort,New Hampshire,Botswana,24693,67387e9768ce199ec2001234
+466,45.088752,-154.030966,Levy Throughway,118,New Alexandermouth,Oregon,Algeria,36479,67387e97e836d813fd001234
+467,-43.6710645,-170.387204,Kristy Landing,85225,Nancymouth,Kansas,South Africa,48302,67387e97ab817c9349001234
+468,65.5226355,-9.770326,Douglas Freeway,10232,West Samanthafort,Hawaii,Bosnia and Herzegovina,12642,67387e97877a9ba7a9001234
+469,-40.2424445,-66.379467,Eric Turnpike,019,Jacobsview,Utah,Georgia,98949,67387e97dc6a648964001234
+470,-15.2951695,81.254183,Collins Unions,23701,Lake Dylantown,Georgia,Suriname,89320,67387e9726337353b7001234
+471,62.609476,43.304705,Davis Port,965,Lake Keithstad,Texas,Kyrgyz Republic,71567,67387e978e6b42f164001234
+472,28.1378465,-100.276232,Stein Glens,177,Michellechester,New Jersey,Nepal,59692,67387e97ef575e8837001234
+473,-89.014792,106.262016,Beverly Islands,205,Lake Kristinafurt,Nevada,Faroe Islands,83731,67387e972050e03ca1001234
+474,-56.659179,88.361595,Lane Turnpike,349,Jonview,Wyoming,Congo,41755,67387e9725ddc0f8c9001234
+475,-81.593833,-174.271883,Elizabeth Corners,703,Port Samanthaberg,Washington,Hungary,17008,67387e975ef0b4eba3001234
+476,48.183436,173.228775,Sean Ford,969,East Robertfurt,New York,Czech Republic,18376,67387e97598b3e71ec001234
+477,8.514281,118.205057,Greene Locks,61381,North Johnburgh,Ohio,Guyana,11834,67387e9774071a6733001234
+478,-13.379553,118.514214,Taylor Springs,334,North Rebecca,North Carolina,Yemen,50370,67387e97cfee398643001234
+479,18.3706215,-121.383126,Katie Lights,3799,North Amy,Virginia,Slovenia,83096,67387e97d18f655c3f001234
+480,47.4043845,43.190261,Erin Center,150,Morganville,Florida,Somalia,30584,67387e976ea2ef7311001234
+481,57.388834,27.256049,Santiago Station,516,South John,Wyoming,Burundi,43899,67387e979461cce28e001234
+482,-31.8645195,-53.995694,Owens Harbors,5733,Oscarborough,Mississippi,Nepal,44139,67387e97f770b62bc8001234
+483,54.2190715,3.166296,Nancy Shoal,6971,East Jennifer,Wyoming,Bangladesh,28281,67387e97e1e32e235e001234
+484,60.074213,-14.312881,Miranda Dale,806,Mercerchester,Tennessee,Liechtenstein,37277,67387e97eba0dc302b001234
+485,73.733520,-109.557047,Savage Mill,2918,Port Karenshire,Mississippi,Croatia,86187,67387e97218a0aefd1001234
+486,87.930718,160.962425,Elizabeth Lodge,78447,Kaylafort,Kentucky,Turkey,27254,67387e977d04bbbe54001234
+487,-55.1871875,78.786557,Fitzgerald Pass,4204,Philipbury,Florida,Saint Martin,35122,67387e97a516a87cfc001234
+488,26.8404965,-65.176784,Brown Village,58883,North Jeremyfurt,Maryland,Bermuda,98018,67387e97c3c59e5f8b001234
+489,25.2411435,166.827446,Randolph Ridge,138,New Todd,California,British Indian Ocean Territory (Chagos Archipelago),90371,67387e97854d9fca60001234
+490,6.928490,81.829755,Bishop Extensions,6997,Feliciaport,Indiana,Cambodia,27278,67387e97c410003ef1001234
+491,-0.1544345,92.203997,Sherry Path,26749,Mcdanielmouth,Arizona,Indonesia,97547,67387e97559cb990c9001234
+492,77.9766525,-23.612740,Melissa Gardens,68978,New Denise,Oregon,Switzerland,14619,67387e9755a7cf9c71001234
+493,-20.1825705,86.198219,Burke Turnpike,83007,New Melissa,Georgia,Saint Lucia,35718,67387e972f55707d41001234
+494,47.567838,81.715983,Armstrong Heights,478,West Jocelyn,Vermont,Antarctica (the territory South of 60 deg S),28383,67387e971be3bc32e6001234
+495,-83.179835,120.293942,White Forges,1393,Marcusport,Louisiana,Colombia,21574,67387e9735051070e5001234
+496,79.544120,-38.541120,William View,2570,Meyersberg,Florida,Pitcairn Islands,45214,67387e97b534ba6823001234
+497,-1.7672625,-57.407309,Karl Dale,4555,Aguilarberg,New Jersey,Mexico,63424,67387e977380ad8a67001234
+498,-62.887558,-68.703075,Kelly Station,17561,West Nicholas,Oklahoma,United States Minor Outlying Islands,88351,67387e9705f971b5ec001234
+499,-68.050131,112.112143,Karen Common,411,West Davidville,Washington,Japan,14264,67387e973cf166c6b7001234
