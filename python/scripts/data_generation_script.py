@@ -13,7 +13,7 @@ events_path = output_path.joinpath('events_data.csv')
 objects_path = output_path.joinpath('objects_data.csv')
 location_path = output_path.joinpath('location_data.csv')
 
-scale_factor = 0.05
+scale_factor = 0.2
 
 people = generate_data(int(45000*scale_factor), person_attributes, 'csv', people_path)
 events = generate_data(int(30000*scale_factor), event_attributes, 'csv', events_path)

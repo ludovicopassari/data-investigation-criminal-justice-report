@@ -1,9 +1,13 @@
 
-1. Ottenere informazioni anagrafiche di una persona cercando per nome, e cognome [db.people.find({first_name:"Sarah", last_name:"Howard"},{ first_name: 1, last_name: 1, date_of_bith : 1, residence :1 ,gender:1,_id: 0 })]
+1. Ottenere informazioni anagrafiche di una persona cercando per nome, e cognome 
 
-2. Trovare tutte le persone indagate che sono legate ad uno specifico evento [db.events.aggregate([
-    {
-        $match: {_id : 5}
+query : db.people.find({first_name:"William", last_name:"Jackson"},{ first_name: 1, last_name: 1, date_of_birth : 1, residence :1 ,gender:1,_id: 0 })
+
+
+2. restituisce i dettagli di tutte le persone Suspected che sono legate ad uno specifico evento 
+
+query : db.events.aggregate([{
+        $match: {_id : ObjectId("673eec2dcfcd208495001234")}
     },
     { 
         $lookup: {
@@ -18,14 +22,17 @@
     },
     {
         $match: {"people_details.status" : "Suspected"}
+    },
+    {
+        $replaceRoot: { newRoot: "$people_details" } // Mantieni solo i dettagli delle persone
     }
-])]
+])
 
 3. Trovare tutte le residenze delle persone coinvolte in eventi correlati ad un evento specifico.
 
 db.events.aggregate([
     {
-        $match: {_id : 0}
+        $match: {_id : ObjectId("673eec2d6ea9ab1baa001234")}
     },
     {
         $lookup: {
@@ -61,39 +68,80 @@ db.events.aggregate([
   }
 ])
 
+
 4. Trovare il propietario(se ci sono) di un oggetto che è legato ad un evento specifico
 
+
 db.events.aggregate([
-        {
-            $match: {_id : 10}
-        },
-        {
-            $lookup: {
-                   from: "objects",
-                   localField: "related_objects",
-                   foreignField: "_id",
-                   as: "obj"
-                 }
-        },
-        {
-            $unwind: "$obj"
-        },
-        {
-            $lookup: {
-                   from: "people",
-                   localField: "obj.proprietario",
-                   foreignField: "_id",
-                   as: "owners"
-                 }
-        },
-        {
-            $unwind: "$owners" 
-        },{
-            $project: {
-                "owners.first_name" :1
+    {
+        $match: {_id: ObjectId("673eec2dcfcd208495001234")}
+    },
+    {
+        $lookup: {
+            from: "objects",
+            localField: "related_objects",
+            foreignField: "_id",
+            as: "obj"
+        }
+    },
+    {
+        $unwind: "$obj"
+    },
+    {
+        $lookup: {
+            from: "people",
+            localField: "obj.owner",
+            foreignField: "_id",
+            as: "owners"
+        }
+    },
+    {
+        $unwind: "$owners"
+    },
+    {
+        $project: {
+            "owners.first_name": 1,
+            "owners.last_name": 1,
+            "owners.gender": 1,
+            "owners.nationality": 1,
+            "owners.age": {
+                $toInt: {
+                    $dateDiff: {
+                        startDate: { $toDate: "$owners.date_of_birth" },
+                        endDate: "$$NOW",
+                        unit: "year"
+                    }
+                }
             }
         }
-        
-    ])
+    }
+]);
+
 
 5. trovare il propietario di un oggetto ritrovato in una determinata locataion che è stata sede di un evento particolare.
+
+dato un oggetto ci deve dare il propietario, la location in cui è stato trovato se è stato ritrovato  e quale evento è accaduto in quella location se è accaduto
+
+
+db.objects.aggregate([
+    {
+        $match: {_id : ObjectId("673db5fe11bcd3c1d4001234")}
+    },
+    {
+        $lookup: {
+               from: "people",
+               localField: "proprietario",
+               foreignField: "_id",
+               as: "owner"
+             }
+    },
+    
+    {
+        $lookup: {
+            from: "events",
+            localField: "luogo_ritrovamento.street_name",
+            foreignField: "luogo.street_name",
+            as: "event"
+            }
+    },
+])

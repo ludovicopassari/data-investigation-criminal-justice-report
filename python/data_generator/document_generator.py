@@ -4,10 +4,11 @@ from data_generator import np
 import json
 
 
-def generate_events_documents(events, events_with_location, events_with_person, related_to, event_with_objects):
+def generate_events_documents(events, events_with_location, events_with_person, related_to, event_with_objects, output_dir):
     event_collection = {}
 
     for index, row in events.iterrows():
+
 
         event = {
             "_id": {
@@ -16,21 +17,26 @@ def generate_events_documents(events, events_with_location, events_with_person, 
             "description": row['description'],
             "data": row['event_date'],
             "status": row['status'],
-            "luogo": {
-                "street_name": events_with_location[events_with_location['id_event'] == row['id_event']][
-                    'street_name'].item(),
-                "building_number": events_with_location[events_with_location['id_event'] == row['id_event']][
-                    'building_number'].item(),
-                "city": events_with_location[events_with_location['id_event'] == row['id_event']]['city'].item(),
-                "state": events_with_location[events_with_location['id_event'] == row['id_event']]['state'].item(),
-                "country": events_with_location[events_with_location['id_event'] == row['id_event']]['country'].item(),
-                "postal_code": events_with_location[events_with_location['id_event'] == row['id_event']][
-                    'postal_code'].item(),
-            },
+            "happened_in":{},
             "linked_to": [],
             "related_objects": [],
             "related_events": []
         }
+
+        try:
+            location = events_with_location[events_with_location['id_event'] == row['id_event']]['street_name'].item()
+            if location:
+                event['happened_in'] = {
+                    "street_name": events_with_location[events_with_location['id_event'] == row['id_event']]['street_name'].item(),
+                    "building_number": events_with_location[events_with_location['id_event'] == row['id_event']]['building_number'].item(),
+                    "city": events_with_location[events_with_location['id_event'] == row['id_event']]['city'].item(),
+                    "state": events_with_location[events_with_location['id_event'] == row['id_event']]['state'].item(),
+                    "country": events_with_location[events_with_location['id_event'] == row['id_event']]['country'].item(),
+                    "postal_code": events_with_location[events_with_location['id_event'] == row['id_event']]['postal_code'].item(),
+                }
+        except ValueError:
+            pass
+
         # prende tutte le persone legate all'evento corrente
         all_person_related_to_current_event = events_with_person[events_with_person['id_event'] == row['id_event']][
             'id_person'].tolist()
@@ -84,32 +90,26 @@ def generate_events_documents(events, events_with_location, events_with_person, 
             if curr_event_id not in doc['related_events']:
                 doc['related_events'].append({'$oid':curr_event_id})
 
-    with open('events.json', 'w') as f:
+    o = output_dir.joinpath('events.json')
+    with open(o, 'w') as f:
         for record in list(event_collection.values()):
             # Converti ogni dizionario in una stringa JSON e scrivilo su una nuova riga
             f.write(json.dumps(record) + "\n")
 
 
 def generate_objects_documents(object_entities, people, location_entities, events, founded_in, owns, involved_in,
-                               dataset_dir):
+                               output_dir):
     # Join tra oggetti e proprietari
     objects_with_owners = object_entities.merge(owns, left_on='id_object', right_on='id_object', how='left')
-    objects_with_owners = objects_with_owners.merge(people[['id_person', 'first_name', 'last_name']],
-                                                    left_on='id_person', right_on='id_person', how='left')
+    objects_with_owners = objects_with_owners.merge(people[['id_person', 'first_name', 'last_name']],left_on='id_person', right_on='id_person', how='left')
 
     # Join tra oggetti e luoghi di ritrovamento
-    objects_with_locations = objects_with_owners.merge(founded_in, left_on='id_object', right_on='id_object',
-                                                       how='left')
-    objects_with_locations = objects_with_locations.merge(
-        location_entities[['id_location', 'street_name', 'city', 'state', 'postal_code']],
-        left_on='id_location', right_on='id_location', how='left')
+    objects_with_locations = objects_with_owners.merge(founded_in, left_on='id_object', right_on='id_object',how='left')
+    objects_with_locations = objects_with_locations.merge(location_entities[['id_location', 'street_name', 'city', 'state', 'postal_code']],left_on='id_location', right_on='id_location', how='left')
 
     # Join tra oggetti ed eventi associati
-    objects_with_events = objects_with_locations.merge(involved_in, left_on='id_object', right_on='id_object',
-                                                       how='left')
-    objects_with_events = objects_with_events.merge(events[['id_event', 'event_type', 'description', 'event_date']],
-                                                    left_on='id_event', right_on='id_event', how='left',
-                                                    suffixes=('', '_event'))
+    objects_with_events = objects_with_locations.merge(involved_in, left_on='id_object', right_on='id_object',how='left')
+    objects_with_events = objects_with_events.merge(events[['id_event', 'event_type', 'description', 'event_date']],left_on='id_event', right_on='id_event', how='left',suffixes=('', '_event'))
 
     # Pre-processamento: Converti NaN in None e forza i tipi delle colonne numeriche
     objects_with_events = objects_with_events.replace({np.nan: None})
@@ -125,34 +125,49 @@ def generate_objects_documents(object_entities, people, location_entities, event
     for object_id, group in grouped_objects:
         row = group.iloc[0]  # Prende la prima riga del gruppo per i dettagli unici dell'oggetto
 
-        obj = {
-            "_id": row['id_object'],
-            "descrizione": row.get("type", "Oggetto senza tipo"),
-            "numero_seriale": row.get("serial_number", "Seriale non disponibile"),
-            "proprietario": row['id_person'],
-            "eventi_associati": [{"$oid" : e} for e in group['id_event'].dropna().unique()],
-            "luogo_ritrovamento": {
-                "indirizzo": row.get("street_name", "Indirizzo non disponibile"),
-                "città": row.get("city", "Città non disponibile"),
-                "provincia": row.get("state", "Provincia non disponibile"),
-                "Cap": row.get("postal_code", "CAP non disponibile")
+        owner = row['id_person']
+        if owner is not None:
+            owner = {
+                "$oid": owner
             }
+
+        obj = {
+            "_id": {
+                "$oid" : row['id_object']
+            },
+            "description": row.get("type", "Oggetto senza tipo"),
+            "serial_number": row.get("serial_number", "Seriale non disponibile"),
+            "owner":  owner,
+            "related_to": [{"$oid" : e} for e in group['id_event'].dropna().unique()],
+            "founded_in": {}
         }
 
+
+        street_name =  row.get("street_name", None)
+        city =  row.get("city", None)
+        state = row.get("state", None)
+        cap = row.get("postal_code", None)
+        if street_name is not None and city is not None and state is not None and cap is not None:
+            obj["founded_in"] = {
+                "street_name": street_name,
+                "city": city,
+                "state": state,
+                "cap": int(cap)
+            }
         objects_json.append(obj)
 
     try:
         # Scrittura dell'output JSON con ogni documento su una riga
-        with open(dataset_dir.joinpath("objects_data.json"), "w", encoding="utf-8") as f:
+        with open(output_dir.joinpath("objects_data.json"), "w", encoding="utf-8") as f:
             for obj in objects_json:
                 json_str = json.dumps(obj, ensure_ascii=False)
                 f.write(json_str + "\n")
-        print("File JSON generato correttamente con ogni documento su una riga.")
+
     except Exception as e:
         print(f"Errore durante la scrittura del JSON: {e}")
 
 
-def generate_person_documents(people, df_residence_in, df_linked_to, collaborate_with):
+def generate_person_documents(people, df_residence_in, df_linked_to, collaborate_with, output_dir):
     people_collection = {}
     not_inserted_yet = {}
 
@@ -219,67 +234,121 @@ def generate_person_documents(people, df_residence_in, df_linked_to, collaborate
         people_collection[curr_person_id['$oid']] = persona
 
     for id, list_people in not_inserted_yet.items():
-        print(f"{id}: {list_people}")
+
         for a in list_people:
 
             people_collection[a['$oid']]['collaborate_with'].append({'$oid':id})
 
-    with open('people_collection.json', 'w') as f:
+    with open(output_dir.joinpath('people_collection.json'), 'w') as f:
         for record in list(people_collection.values()):
             # Converti ogni dizionario in una stringa JSON e scrivilo su una nuova riga
             f.write(json.dumps(record) + "\n")
 
 
+def generate_documents(data, output_dir):
+
+
+    data['people'].rename(columns={'id': 'id_person'}, inplace=True)
+    data['events'].rename(columns={'id': 'id_event'}, inplace=True)
+    data['locations'].rename(columns={'id': 'id_location'}, inplace=True)
+    data['objects'].rename(columns={'id': 'id_object'}, inplace=True)
+
+    df_partial_join_linked_to = pd.merge(data['linked_to'], data['people'], on='id_person', how='left')
+    df_linked_to = pd.merge(df_partial_join_linked_to, data['events'], on='id_event', how='left')
+
+    df_partial_join_residence_in = pd.merge(data['residence_in'], data['people'], on='id_person', how='left')
+    df_residence_in = pd.merge(df_partial_join_residence_in, data['locations'], on='id_location', how='left')
+
+    events_with_location_partial_join = pd.merge(data['happened_in'], data['events'], on='id_event', how='left')
+    events_with_location = pd.merge(events_with_location_partial_join, data['locations'], on='id_location',how='left')
+
+    events_with_person_partial_join = pd.merge(data['linked_to'], data['events'], on='id_event', how='left')
+    events_with_person = pd.merge(events_with_person_partial_join, data['people'], on='id_person', how='left')
+
+    events_with_objects_partial_join = pd.merge(data['involved_in'], data['events'], on='id_event', how='left')
+    event_with_object_join = pd.merge(events_with_objects_partial_join, data['objects'], on='id_object', how='left')
+
+    generate_person_documents(data['people'], df_residence_in, df_linked_to, data['collaborate_with'],
+                              output_dir)
+    generate_objects_documents(data['objects'], data['people'], data['locations'], data['events'],
+                               data['founded_in'], data['owns'], data['involved_in'], output_dir)
+    generate_events_documents(data['events'], events_with_location, events_with_person, data['related_to'],
+                              event_with_object_join, output_dir)
+
 def main():
     # entities
     base_dir = Path(__file__).parent.parent.parent
     dataset_dir = base_dir.joinpath("dataset", "")
-    relationships_dir = base_dir.joinpath("dataset", "relationships")
+    relationship_dir = base_dir.joinpath("dataset", "relationships")
+    output_dir_100 = base_dir.joinpath("mongo", "documents","100")
+    output_dir_75 = base_dir.joinpath("mongo", "documents","75")
+    output_dir_50 = base_dir.joinpath("mongo", "documents","50")
+    output_dir_25 = base_dir.joinpath("mongo", "documents","25")
 
-    people = pd.read_csv(dataset_dir.joinpath("people_data.csv"))
-    people.rename(columns={'id': 'id_person'}, inplace=True)
 
-    events = pd.read_csv(dataset_dir.joinpath("events_data.csv"))
-    events.rename(columns={'id': 'id_event'}, inplace=True)
+    data = {
+        'people': pd.read_csv(dataset_dir.joinpath('people_data.csv')),
+        'objects': pd.read_csv(dataset_dir.joinpath('objects_data.csv')),
+        'locations': pd.read_csv(dataset_dir.joinpath('location_data.csv')),
+        'events': pd.read_csv(dataset_dir.joinpath('events_data.csv')),
+        'linked_to': pd.read_csv(relationship_dir.joinpath('linked_to.csv')),
+        'owns': pd.read_csv(relationship_dir.joinpath('owns.csv')),
+        'related_to': pd.read_csv(relationship_dir.joinpath('related_to.csv')),
+        'residence_in': pd.read_csv(relationship_dir.joinpath('residence_in.csv')),
+        'involved_in': pd.read_csv(relationship_dir.joinpath('involved_in.csv')),
+        'happened_in': pd.read_csv(relationship_dir.joinpath('happened_in.csv')),
+        'founded_in': pd.read_csv(relationship_dir.joinpath('founded_in.csv')),
+        'collaborate_with': pd.read_csv(relationship_dir.joinpath('collaborate_with.csv')),
+    }
+    generate_documents(data, output_dir_100)
 
-    location_entities = pd.read_csv(dataset_dir.joinpath("location_data.csv"))
-    location_entities.rename(columns={'id': 'id_location'}, inplace=True)
+    data_75 = {
+        'people': pd.read_csv(dataset_dir.joinpath('people_entity_partition_75.csv')),
+        'objects': pd.read_csv(dataset_dir.joinpath('object_entity_partition_75.csv')),
+        'locations': pd.read_csv(dataset_dir.joinpath('location_entity_partition_75.csv')),
+        'events': pd.read_csv(dataset_dir.joinpath('event_entity_partition_75.csv')),
+        'linked_to': pd.read_csv(relationship_dir.joinpath('linked_to_75.csv')),
+        'owns': pd.read_csv(relationship_dir.joinpath('owns_75.csv')),
+        'related_to': pd.read_csv(relationship_dir.joinpath('related_to_75.csv')),
+        'residence_in': pd.read_csv(relationship_dir.joinpath('residence_in_75.csv')),
+        'involved_in': pd.read_csv(relationship_dir.joinpath('involved_in_75.csv')),
+        'happened_in': pd.read_csv(relationship_dir.joinpath('happened_in_75.csv')),
+        'founded_in': pd.read_csv(relationship_dir.joinpath('founded_in_75.csv')),
+        'collaborate_with': pd.read_csv(relationship_dir.joinpath('collaborate_with_75.csv')),
+    }
+    generate_documents(data_75, output_dir_75)
 
-    object_entities = pd.read_csv(dataset_dir.joinpath("objects_data.csv"))
-    object_entities.rename(columns={'id': 'id_object'}, inplace=True)
+    data_50 = {
+        'people': pd.read_csv(dataset_dir.joinpath('people_entity_partition_50.csv')),
+        'objects': pd.read_csv(dataset_dir.joinpath('object_entity_partition_50.csv')),
+        'locations': pd.read_csv(dataset_dir.joinpath('location_entity_partition_50.csv')),
+        'events': pd.read_csv(dataset_dir.joinpath('event_entity_partition_50.csv')),
+        'linked_to': pd.read_csv(relationship_dir.joinpath('linked_to_50.csv')),
+        'owns': pd.read_csv(relationship_dir.joinpath('owns_50.csv')),
+        'related_to': pd.read_csv(relationship_dir.joinpath('related_to_50.csv')),
+        'residence_in': pd.read_csv(relationship_dir.joinpath('residence_in_50.csv')),
+        'involved_in': pd.read_csv(relationship_dir.joinpath('involved_in_50.csv')),
+        'happened_in': pd.read_csv(relationship_dir.joinpath('happened_in_50.csv')),
+        'founded_in': pd.read_csv(relationship_dir.joinpath('founded_in_50.csv')),
+        'collaborate_with': pd.read_csv(relationship_dir.joinpath('collaborate_with_50.csv')),
+    }
+    generate_documents(data_50, output_dir_50)
 
-    # relationships object_entity_id
-    residence_in = pd.read_csv(relationships_dir.joinpath("residence_in.csv"))
-    linked_to = pd.read_csv(relationships_dir.joinpath("linked_to.csv"))
-    collaborate_with = pd.read_csv(relationships_dir.joinpath("collaborate_with.csv"))
-    founded_in = pd.read_csv(relationships_dir.joinpath("founded_in.csv"))
-    owns = pd.read_csv(relationships_dir.joinpath("owns.csv"))
-
-    involved_in = pd.read_csv(relationships_dir.joinpath("involved_in.csv"))
-
-    happened_in = pd.read_csv(relationships_dir.joinpath("happened_in.csv"))
-
-    related_to = pd.read_csv(relationships_dir.joinpath("related_to.csv"))
-
-    df_partial_join_linked_to = pd.merge(linked_to, people, on='id_person', how='left')
-    df_linked_to = pd.merge(df_partial_join_linked_to, events, on='id_event', how='left')
-
-    df_partial_join_residence_in = pd.merge(residence_in, people, on='id_person', how='left')
-    df_residence_in = pd.merge(df_partial_join_residence_in, location_entities, on='id_location', how='left')
-
-    events_with_location_partial_join = pd.merge(happened_in, events, on='id_event', how='left')
-    events_with_location = pd.merge(events_with_location_partial_join, location_entities, on='id_location', how='left')
-
-    events_with_person_partial_join = pd.merge(linked_to, events, on='id_event', how='left')
-    events_with_person = pd.merge(events_with_person_partial_join, people, on='id_person', how='left')
-
-    events_with_objects_partial_join = pd.merge(involved_in, events, on='id_event', how='left')
-    event_with_object_join = pd.merge(events_with_objects_partial_join, object_entities, on='id_object', how='left')
-
-    generate_person_documents(people, df_residence_in, df_linked_to, collaborate_with)
-    generate_objects_documents(object_entities, people, location_entities, events, founded_in, owns, involved_in,
-                               dataset_dir)
-    generate_events_documents(events, events_with_location, events_with_person, related_to, event_with_object_join)
+    data_25 = {
+        'people': pd.read_csv(dataset_dir.joinpath('people_entity_partition_25.csv')),
+        'objects': pd.read_csv(dataset_dir.joinpath('object_entity_partition_25.csv')),
+        'locations': pd.read_csv(dataset_dir.joinpath('location_entity_partition_25.csv')),
+        'events': pd.read_csv(dataset_dir.joinpath('event_entity_partition_25.csv')),
+        'linked_to': pd.read_csv(relationship_dir.joinpath('linked_to_25.csv')),
+        'owns': pd.read_csv(relationship_dir.joinpath('owns_25.csv')),
+        'related_to': pd.read_csv(relationship_dir.joinpath('related_to_25.csv')),
+        'residence_in': pd.read_csv(relationship_dir.joinpath('residence_in_25.csv')),
+        'involved_in': pd.read_csv(relationship_dir.joinpath('involved_in_25.csv')),
+        'happened_in': pd.read_csv(relationship_dir.joinpath('happened_in_25.csv')),
+        'founded_in': pd.read_csv(relationship_dir.joinpath('founded_in_25.csv')),
+        'collaborate_with': pd.read_csv(relationship_dir.joinpath('collaborate_with_25.csv')),
+    }
+    generate_documents(data_25, output_dir_25)
 
 
 if __name__ == '__main__':

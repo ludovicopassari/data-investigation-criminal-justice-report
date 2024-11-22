@@ -45,7 +45,7 @@ def person_to_location(people_entities: pd.DataFrame, location_entities: pd.Data
     residence_in = []
     for index, row in people_entities.iterrows():
         location_id = []
-        has_home = np.random.choice([0, 1], p=[0.8, 0.2])
+        has_home = np.random.choice([0, 1], p=[0.2, 0.8])
         if has_home:
             location_id = np.random.choice(location_entities['id'], has_home)
         for id in location_id:
@@ -76,12 +76,10 @@ def event_to_location_relationship(events_entities: pd.DataFrame, location_entit
                                    max_relationship=3) -> pd.DataFrame:
     relationships = []
 
-    for index, row in tqdm(events_entities.iterrows(), total=events_entities.shape[0],
-                           desc="Creating happened_in relationship", unit="row"):
-        related_location_id = np.random.choice(location_entities['id'], 1,
-                                               replace=False)
-        relationships.append(
-            {'id_event': row['id'], 'id_location': related_location_id[0]})
+    for index, row in tqdm(events_entities.iterrows(), total=events_entities.shape[0],desc="Creating happened_in relationship", unit="row"):
+        related_location_id = np.random.choice(location_entities['id'], random.choice([0, 1]),replace=False)
+        if related_location_id :
+            relationships.append({'id_event': row['id'], 'id_location': related_location_id[0]})
     return pd.DataFrame(relationships)
 
 
@@ -97,8 +95,8 @@ def object_to_location_to_person_to_event_relationship(object_entities: pd.DataF
                            desc="Creating owns,involved_in,founded_in relationships",
                            unit="row"):
 
-        # sceglie almeno una location random in cui l'oggetto
-        location_id = np.random.choice(location_entities['id'], 1, replace=False)
+
+        location_id = np.random.choice(location_entities['id'], random.choice([0, 1]), replace=False)
         # stabilisce con una determinata probabilità se un oggetto è posseduto da una persona oppure no
         num_pers = np.random.choice([0, 1], p=[0.5, 0.5])
         people_id = []
@@ -108,9 +106,9 @@ def object_to_location_to_person_to_event_relationship(object_entities: pd.DataF
         # seleziona nessuno o N eventi in cui l'oggetto corrente è coinvolto
         events_id = np.random.choice(event_entities['id'], np.random.randint(0, 4), replace=False)
 
-        # assegna all'oggetto la location in cui è stato trovato
-        founded_in_relationship.append(
-            {'id_object': row['id'], 'id_location': location_id[0]})
+        if location_id:
+            # assegna all'oggetto la location in cui è stato trovato
+            founded_in_relationship.append({'id_object': row['id'], 'id_location': location_id[0]})
 
         for person_id in people_id:
             owns_relationship.append(

@@ -1,0 +1,281 @@
+{"_id": {"$oid": "673ef5fd006f52e910001234"}, "description": "Gun", "serial_number": "8f8e3dd4-b1bd-4b19-ab03-87b2c2e3bc86", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd01161aaa0b001234"}, "description": "Knife", "serial_number": "9ea2ca60-4b00-4248-850b-dc1878a96539", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd013d407166001234"}, "description": "Gun", "serial_number": "87e11340-b474-428b-9cd3-155bce0c9a47", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd02522a2b27001234"}, "description": "Knife", "serial_number": "2bf6caa8-d813-46b7-85fd-dcc0f9d66f89", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0266e33d3f001234"}, "description": "Hammer", "serial_number": "9492a1a7-a885-4ee2-a6ed-0c1c87617f14", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd02e74f10e0001234"}, "description": "Hammer", "serial_number": "76fd94f9-b5a7-45ce-b5b1-2d06bcef14d5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0336dcbab0001234"}, "description": "Hammer", "serial_number": "e1e709c2-07c1-43a4-9293-5a4751edeef8", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd03afdbd66e001234"}, "description": "Ax", "serial_number": "aabba159-a3ad-4df4-84e8-06e5b76aa3f9", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd03c6b06952001234"}, "description": "Knife", "serial_number": "9213de85-29c1-4c9f-a5a5-661a7e2428ee", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd045117b0e0001234"}, "description": "Hammer", "serial_number": "a52f2752-8b03-4943-a157-0d9492bd472c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd060ad92489001234"}, "description": "Gun", "serial_number": "227822bf-2366-48b5-bf11-de489d90d001", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd06138bc5af001234"}, "description": "Gun", "serial_number": "94e27be1-7154-496a-a7af-57ec13cb17a7", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0640966322001234"}, "description": "Ax", "serial_number": "e61df1eb-6761-4599-812c-899537c0d18c", "owner": null, "related_to": [{"$oid": "673ef5fd25ddc0f8c9001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd069059b7ef001234"}, "description": "Knife", "serial_number": "ada8e679-60f0-4453-a912-648f0787e8b3", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd072b030ba1001234"}, "description": "Gun", "serial_number": "23afe42e-e17a-4955-8eb5-91871982e7a8", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0777d5c17d001234"}, "description": "Ax", "serial_number": "8f9ecc6b-8f6c-4bdf-a81d-6e79c1838af4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd077e29b11b001234"}, "description": "Knife", "serial_number": "732dc077-5ca1-4480-91b4-77ba27d2b12f", "owner": {"$oid": "673ef5fb3636638817001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd07cdfd2337001234"}, "description": "Ax", "serial_number": "e21eeb81-9b8e-4706-beba-e99c2f6c83c9", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd07e1cd7dca001234"}, "description": "Hammer", "serial_number": "d0f99f51-42e7-49b5-a38d-c72c438a61ae", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd084b6fbb10001234"}, "description": "Ax", "serial_number": "e6d8f411-fb0f-4df9-9c65-40b499ef8beb", "owner": null, "related_to": [], "founded_in": {"street_name": "Taylor Forges", "city": "Lake William", "state": "Mississippi", "cap": 7403}}
+{"_id": {"$oid": "673ef5fd091d584fce001234"}, "description": "Hammer", "serial_number": "e6c5ebb4-a7e0-45ed-ad4e-00b762c57b7a", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd093f65e080001234"}, "description": "Ax", "serial_number": "c4ba8ddf-b4f9-4207-9395-cd31b8543aff", "owner": null, "related_to": [{"$oid": "673ef5fd6f4922f455001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0a09c8844b001234"}, "description": "Knife", "serial_number": "d5537166-4d2c-46b2-8926-db3ffb211062", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0aa1883c64001234"}, "description": "Hammer", "serial_number": "6ef249a7-28e1-43a1-800f-3d5fee7ffb3a", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0e65972dce001234"}, "description": "Gun", "serial_number": "e148a418-eed0-499e-a91f-90bc436e907a", "owner": null, "related_to": [{"$oid": "673ef5fde7b24b112a001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd0f28b5d49b001234"}, "description": "Ax", "serial_number": "ce3b6cbe-ce22-4ed4-b8a9-c173862f3fa5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd115f895031001234"}, "description": "Hammer", "serial_number": "0a7853bc-23a9-4a18-9850-1d6a8239719e", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1385974ed5001234"}, "description": "Knife", "serial_number": "fa0a2a9a-c69a-4a93-9542-c6b2c574ab4c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd13fe9d8431001234"}, "description": "Ax", "serial_number": "0419b5cc-d3c5-4cac-bf8c-9ac3f94d06f6", "owner": null, "related_to": [{"$oid": "673ef5fdf387624df5001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd140f6969d5001234"}, "description": "Hammer", "serial_number": "741cb5aa-d5ea-4710-b393-209ae045d56a", "owner": null, "related_to": [], "founded_in": {"street_name": "Taylor Glen", "city": "Kevinmouth", "state": "North Dakota", "cap": 63758}}
+{"_id": {"$oid": "673ef5fd149e9677a5001234"}, "description": "Gun", "serial_number": "4847d4cc-ddd0-4c7a-bb06-1d2ba3db9766", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd14bfa6bb14001234"}, "description": "Knife", "serial_number": "28c9cc56-b0cd-4a4b-8c91-289a5373f627", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1534b76d32001234"}, "description": "Hammer", "serial_number": "54e723cf-cf12-4a8e-bef7-d8b277807be9", "owner": null, "related_to": [{"$oid": "673ef5fdf2fc990265001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1679091c5a001234"}, "description": "Hammer", "serial_number": "6f548926-58e7-4aae-9a44-9d3f9ba6e044", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd17e62166fc001234"}, "description": "Knife", "serial_number": "90e9e2bc-8b9e-46c8-8ab6-d23297fea86f", "owner": null, "related_to": [], "founded_in": {"street_name": "Laura Villages", "city": "Johnsonmouth", "state": "New York", "cap": 67950}}
+{"_id": {"$oid": "673ef5fd182be0c5cd001234"}, "description": "Knife", "serial_number": "97b61755-92aa-4a83-90a2-a0cc6ce3b4ab", "owner": null, "related_to": [], "founded_in": {"street_name": "Lauren Key", "city": "Lake Brianna", "state": "Kansas", "cap": 76935}}
+{"_id": {"$oid": "673ef5fd19ca14e7ea001234"}, "description": "Ax", "serial_number": "13835105-d48a-4dc5-9196-2bc7067a9639", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd19f3cd308f001234"}, "description": "Ax", "serial_number": "8f29859b-9086-463f-8a44-ca37b6d60f9a", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1afa34a7f9001234"}, "description": "Ax", "serial_number": "4313cfc8-4eb4-4bc6-ae15-662afa14d104", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1c383cd30b001234"}, "description": "Gun", "serial_number": "6f12805c-3bd3-4e2a-b03e-7c3b5b45a4af", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1c9ac0159c001234"}, "description": "Gun", "serial_number": "fe72aa3e-4567-4e12-abaa-8468d0659b05", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1d7f7abc18001234"}, "description": "Ax", "serial_number": "898e3b1e-ce26-4582-aabd-ad586d9dbc2b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1f0e3dad99001234"}, "description": "Ax", "serial_number": "9ad03ec6-71c0-4bb6-aff1-8c4fce3f5439", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1ff1de7740001234"}, "description": "Ax", "serial_number": "b11c5198-273f-45ad-8fc5-cdec0ab84ef0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd1ff8a7b5dc001234"}, "description": "Hammer", "serial_number": "f6afd03e-bb9f-4076-83e5-58a7ee9127df", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd202cb962ac001234"}, "description": "Ax", "serial_number": "0e65c67c-809d-4e1e-82e7-5c3d1cc91835", "owner": null, "related_to": [{"$oid": "673ef5fdd82c8d1619001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd20f07591c6001234"}, "description": "Hammer", "serial_number": "89ec5fa7-d75c-4d20-b2d5-07c23adfeedd", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd26657d5ff9001234"}, "description": "Gun", "serial_number": "a408d72b-85d9-4b2b-b03e-1f86ce293bbc", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd2723d092b6001234"}, "description": "Ax", "serial_number": "79ac3ead-ab76-4750-9385-87b1f359f3ef", "owner": {"$oid": "673ef5fb97e8527fea001234"}, "related_to": [{"$oid": "673ef5fd812b4ba287001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd274ad4786c001234"}, "description": "Gun", "serial_number": "d21484eb-a4a5-402e-b4c2-b197d852640c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd2838023a77001234"}, "description": "Knife", "serial_number": "0b02ae02-630c-46fa-924c-029373b5228d", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd289dff0766001234"}, "description": "Gun", "serial_number": "a88a4d28-2695-4929-a33d-9bb85db45ff2", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd28dd2c7955001234"}, "description": "Ax", "serial_number": "9f80aab4-874c-46be-8cf5-735f42eeb39c", "owner": null, "related_to": [{"$oid": "673ef5fde4da3b7fbb001234"}, {"$oid": "673ef5fd357a6fdf76001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd2a38a4a931001234"}, "description": "Knife", "serial_number": "90975920-0b3b-402c-93ce-26e9ae13a4a6", "owner": null, "related_to": [{"$oid": "673ef5fd00ec53c468001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd2a79ea27c2001234"}, "description": "Gun", "serial_number": "0fca1eac-abc5-45b8-bc71-cb0e335b5c5f", "owner": null, "related_to": [{"$oid": "673ef5fdab817c9349001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd2b24d49505001234"}, "description": "Knife", "serial_number": "a047e3c8-3c0c-45c0-99f1-335a712b7e05", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd2b44928ae1001234"}, "description": "Knife", "serial_number": "8f80f51b-65b7-46ab-959c-730a91f29037", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd31fefc0e57001234"}, "description": "Gun", "serial_number": "22db9983-03ed-4f02-aa04-f428fa93d20d", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3295c76acb001234"}, "description": "Gun", "serial_number": "ce456847-b519-472d-a3ff-ddb563e28121", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd32bb90e897001234"}, "description": "Knife", "serial_number": "b0f83e52-152f-443d-8474-b7f7a0b8839b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd335f535208001234"}, "description": "Knife", "serial_number": "db113aa3-92c5-4d84-9c79-897975cb9921", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd33e75ff09d001234"}, "description": "Knife", "serial_number": "6425a2a9-56f8-4293-9fda-44294319eb57", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3416a75f4c001234"}, "description": "Ax", "serial_number": "7eca0729-d594-4286-947a-d4393af970c1", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd34173cb38f001234"}, "description": "Knife", "serial_number": "f0acccbd-280c-4d36-b2d1-2773a8272e15", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd35f4a8d465001234"}, "description": "Knife", "serial_number": "ae94a239-6465-4b7b-8ad0-921a3e651677", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3636638817001234"}, "description": "Gun", "serial_number": "28168e8c-8818-4cfc-99ca-4ae94eef03a0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3644a684f9001234"}, "description": "Hammer", "serial_number": "396e0b1b-5f8b-4373-bb5f-4d15f632de98", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd36660e5985001234"}, "description": "Gun", "serial_number": "4c52d068-0541-4da6-96e5-da1a3f132a41", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd37693cfc74001234"}, "description": "Hammer", "serial_number": "35dee35f-3add-4842-a3f9-61e2bd836efe", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd37a749d808001234"}, "description": "Ax", "serial_number": "20d8b073-326e-4658-ac76-5b87ee33826b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd38af86134b001234"}, "description": "Hammer", "serial_number": "9e909c0d-1b14-42ad-911a-ff284952eba1", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd38b3eff8ba001234"}, "description": "Ax", "serial_number": "c4b10262-22d0-4670-beec-eda6af1fef15", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd38db3aed92001234"}, "description": "Ax", "serial_number": "254e4b86-a959-4524-99ac-05f6b6fd7642", "owner": null, "related_to": [{"$oid": "673ef5fdcb70ab3756001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd39059724f7001234"}, "description": "Hammer", "serial_number": "c72b5edf-40c5-45c9-ad79-2b23224d3ee1", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3988c7f88e001234"}, "description": "Knife", "serial_number": "9896a5c9-1cfa-4a47-91c5-865edff218fd", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3b8a614226001234"}, "description": "Ax", "serial_number": "b39b1430-6b51-45c9-bfb4-b53940e1100c", "owner": null, "related_to": [{"$oid": "673ef5fd7bcdf75ad2001234"}, {"$oid": "673ef5fd13f3cf8c53001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3c59dc048e001234"}, "description": "Hammer", "serial_number": "73bbbab6-cf64-47aa-a2bd-b0d9937ed5af", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3cec07e9ba001234"}, "description": "Gun", "serial_number": "4cf405fc-830c-41cf-b264-8d075baa7f61", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd3def184ad8001234"}, "description": "Ax", "serial_number": "0d766ffb-fa5f-4739-8093-2e0806f23aa6", "owner": {"$oid": "673ef5fb6cdd60ea00001234"}, "related_to": [], "founded_in": {"street_name": "Robles Loop", "city": "East Peterport", "state": "Florida", "cap": 9252}}
+{"_id": {"$oid": "673ef5fd3ef815416f001234"}, "description": "Ax", "serial_number": "6430902f-ce47-4a31-ae69-60423fdc91a1", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd42a0e188f5001234"}, "description": "Ax", "serial_number": "04287d9c-00e5-459a-9e40-ca0b5191434c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd43ec517d68001234"}, "description": "Gun", "serial_number": "78b9bb62-41cc-40b5-8689-78ffd0428014", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd44f683a841001234"}, "description": "Ax", "serial_number": "a3cf843e-6d9f-43ac-b075-cb498a1f8c43", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd45c48cce2e001234"}, "description": "Gun", "serial_number": "2ac0311e-80ba-46d6-9548-a1be14c5bfb2", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd45fbc6d3e0001234"}, "description": "Knife", "serial_number": "3ff249e2-9dcf-4db5-8c9f-4908dea9c241", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd4734ba6f3d001234"}, "description": "Ax", "serial_number": "bcecb1f4-e157-4a6a-9e7f-881548747752", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd47d1e99058001234"}, "description": "Ax", "serial_number": "ed4ca320-2584-42cd-a81b-63740111eca2", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd4c56ff4ce4001234"}, "description": "Knife", "serial_number": "caba118f-35e5-432f-aacf-2913f3b36fd3", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd4c5bde74a8001234"}, "description": "Hammer", "serial_number": "8494f949-a1a6-47ab-8676-baf850ee8f4e", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd4e732ced34001234"}, "description": "Hammer", "serial_number": "c1775586-609c-46b1-8d73-e0ee56bae210", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd502e4a1693001234"}, "description": "Ax", "serial_number": "00e68ae8-1344-4c1e-ab47-8a5ed1ae9f39", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd539fd53b59001234"}, "description": "Hammer", "serial_number": "7d143422-fa5a-4329-b48c-7743fa14daaa", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd54229abfcf001234"}, "description": "Hammer", "serial_number": "56179508-1d31-4b3f-b98b-0e378c5a39f5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd555d6702c9001234"}, "description": "Hammer", "serial_number": "1e6d88fa-1288-4509-ae8a-865aa9eaf082", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd577ef1154f001234"}, "description": "Ax", "serial_number": "219e23a6-18d5-4466-a641-37821265270f", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd57aeee35c9001234"}, "description": "Hammer", "serial_number": "92603874-2830-4b12-ae5c-277735e5752b", "owner": {"$oid": "673ef5fbeefc9e10eb001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd5878a7ab84001234"}, "description": "Ax", "serial_number": "19aabbfb-9235-4ed3-a08a-82c035a6cb3e", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd58a2fc6ed3001234"}, "description": "Hammer", "serial_number": "0c7bc6b5-1658-4f1f-ac6a-a90a05ff5342", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd5ef059938b001234"}, "description": "Hammer", "serial_number": "08555e3d-91ce-464f-ab6b-bcdb93185f49", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd5f93f98352001234"}, "description": "Ax", "serial_number": "616f089d-9c97-4272-ae72-da8a9a6b4ca7", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd5fd0b37cd7001234"}, "description": "Hammer", "serial_number": "c65fb5b7-698c-40ec-9ddf-f1d63e21063a", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd621bf66ddb001234"}, "description": "Hammer", "serial_number": "59d505c5-4033-4014-8cde-e33090f8c249", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6364d3f0f4001234"}, "description": "Ax", "serial_number": "2aec5c45-0c7a-42f5-9196-958d4a5d3c6d", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd63923f49e5001234"}, "description": "Gun", "serial_number": "bc8b79c9-a212-47a6-81b3-f2e0a3ff013c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd63dc7ed101001234"}, "description": "Ax", "serial_number": "5e6a6ee1-b028-4638-ab8b-a535638c2f62", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd642e92efb7001234"}, "description": "Gun", "serial_number": "080de9cd-a1e6-4a61-9196-5e524765cf52", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6512bd43d9001234"}, "description": "Gun", "serial_number": "98c94b83-7169-4123-81bb-dcff1f35a605", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd65b9eea6e1001234"}, "description": "Hammer", "serial_number": "d5989987-6216-42e6-80bc-f5b5c44deb29", "owner": {"$oid": "673ef5fb3435c378bb001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd65ded5353c001234"}, "description": "Ax", "serial_number": "2d2bc1d4-e122-4815-ae36-8f9b1b968e16", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd66f041e16a001234"}, "description": "Ax", "serial_number": "7032c660-bdca-42f5-96bf-f7f1a331e0b3", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd67c6a1e7ce001234"}, "description": "Ax", "serial_number": "a73f4c12-d786-4a2c-b3ee-1bac5166230e", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd68d30a9594001234"}, "description": "Ax", "serial_number": "e7cccf1b-8cb8-4f12-92ec-5464fd50266a", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6974ce5ac6001234"}, "description": "Gun", "serial_number": "dea408c2-912d-451c-b689-9f18b4b089fb", "owner": null, "related_to": [{"$oid": "673ef5fd0353ab4cbe001234"}, {"$oid": "673ef5fd05049e90fa001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd698d51a19d001234"}, "description": "Hammer", "serial_number": "38ee8ccd-d453-4fe3-9d36-63db8973b610", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd69adc1e107001234"}, "description": "Hammer", "serial_number": "a2ee7c87-d56a-49b8-b33b-ecea172f05d6", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6c4b761a28001234"}, "description": "Hammer", "serial_number": "a87bd356-fb50-408b-ab88-ebbd012af314", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6c8349cc72001234"}, "description": "Hammer", "serial_number": "7bd195d7-37ff-4482-8cfa-1934eeb08678", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6c9882bbac001234"}, "description": "Hammer", "serial_number": "02100887-9520-4aff-93fc-b49f6cd70bc6", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6cdd60ea00001234"}, "description": "Gun", "serial_number": "d7342d67-89c6-4086-aa33-1fc01e98516a", "owner": null, "related_to": [], "founded_in": {"street_name": "Parker Heights", "city": "Pamelafurt", "state": "Wyoming", "cap": 93973}}
+{"_id": {"$oid": "673ef5fd6da9003b74001234"}, "description": "Knife", "serial_number": "69eb6010-7d73-420b-8f0a-024c95d0a8a1", "owner": null, "related_to": [{"$oid": "673ef5fd2bb232c0b1001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6ea9ab1baa001234"}, "description": "Gun", "serial_number": "65afcb1a-79fc-424f-86bd-932a6bf04253", "owner": {"$oid": "673ef5fbcedebb6e87001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6f3ef77ac0001234"}, "description": "Ax", "serial_number": "bed7c065-adbe-4790-9350-d04876c09b0f", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd6f4922f455001234"}, "description": "Ax", "serial_number": "4535ab69-2913-49aa-9798-29fcc7df7ee8", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd705f217283001234"}, "description": "Ax", "serial_number": "929d8a50-3867-4f1d-bb19-0004ce5af07b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd70efdf2ec9001234"}, "description": "Hammer", "serial_number": "6b1283e9-e8ba-4d0a-8e8e-3548c6202e00", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd72b32a1f75001234"}, "description": "Knife", "serial_number": "6f41b1e1-fd37-421f-a12e-5ace5e0bce56", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd73278a4a86001234"}, "description": "Knife", "serial_number": "c09abe35-2ef2-4c26-8f53-a16082627cfa", "owner": null, "related_to": [{"$oid": "673ef5fd69cb3ea317001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd735b90b456001234"}, "description": "Hammer", "serial_number": "410f2b15-f675-4bdc-9c7a-bd6ff037714b", "owner": null, "related_to": [{"$oid": "673ef5fd05049e90fa001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd74db120f0a001234"}, "description": "Ax", "serial_number": "ed8bf584-1c6b-41b8-a0d5-fedb17f224d0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd757b505cfd001234"}, "description": "Ax", "serial_number": "a9917fbb-e556-457f-87e3-58b65f99f315", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7647966b73001234"}, "description": "Hammer", "serial_number": "05918616-52bf-4c86-9b81-ba564f90c687", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd76dc611d6e001234"}, "description": "Gun", "serial_number": "0bb0e954-29d8-4856-b9c5-4f64f6bf0092", "owner": {"$oid": "673ef5fb2e65f2f2fd001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7a614fd06c001234"}, "description": "Hammer", "serial_number": "58732e1d-6e93-43b0-bd94-f687778e5ff0", "owner": null, "related_to": [{"$oid": "673ef5fda3f390d88e001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7cbbc409ec001234"}, "description": "Knife", "serial_number": "ab5c0edb-2ae1-47e0-9ed3-1ddd91de6c6a", "owner": null, "related_to": [{"$oid": "673ef5fdc399862d3b001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7e7757b1e1001234"}, "description": "Hammer", "serial_number": "df76284d-fa5a-4688-892d-cf6a9a34a697", "owner": {"$oid": "673ef5fb3295c76acb001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7eabe3a164001234"}, "description": "Gun", "serial_number": "b32cd082-84cd-4df3-bdbe-37d5515e76a0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7ef605fc8d001234"}, "description": "Ax", "serial_number": "41319a4f-5db3-4c14-9d9e-e9333463a328", "owner": null, "related_to": [{"$oid": "673ef5fd3636638817001234"}], "founded_in": {"street_name": "Ortega Hollow", "city": "Lake Chase", "state": "Arizona", "cap": 24305}}
+{"_id": {"$oid": "673ef5fd7f100b7b36001234"}, "description": "Knife", "serial_number": "20882837-af0e-42f7-ba6e-88cf8426ff6a", "owner": null, "related_to": [{"$oid": "673ef5fd69adc1e107001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7f1de29e6d001234"}, "description": "Gun", "serial_number": "372084f3-e353-4a3e-bfce-229ff599b827", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7f39f8317f001234"}, "description": "Hammer", "serial_number": "a035a7dc-1d38-41c3-8610-21a7cfd1c3af", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd7f6ffaa6bb001234"}, "description": "Gun", "serial_number": "6acd03a4-5d58-4c79-8b41-ddba7eb9da31", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd812b4ba287001234"}, "description": "Knife", "serial_number": "9d278151-69ec-4660-aa08-5690e816b50d", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8216124282001234"}, "description": "Knife", "serial_number": "8b5d5f9f-da7b-4a0f-835f-b8884440d541", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd82aa4b0af3001234"}, "description": "Hammer", "serial_number": "3c8ed915-d7e9-49eb-8082-09c8f0522090", "owner": null, "related_to": [{"$oid": "673ef5fdddb30680a6001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd84d9ee44e4001234"}, "description": "Gun", "serial_number": "659a4d6d-82ff-4bba-8110-05f9a8323ff8", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd854d6fae5e001234"}, "description": "Ax", "serial_number": "8a2b8096-a1cd-4218-a951-74f24cfbde44", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd85d8ce590a001234"}, "description": "Ax", "serial_number": "583814ff-8789-4d77-9d10-7f405f96dd54", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8613985ec4001234"}, "description": "Ax", "serial_number": "506a3f8a-342b-4eb4-a605-e0e8a1bd8f33", "owner": {"$oid": "673ef5fb32bb90e897001234"}, "related_to": [], "founded_in": {"street_name": "Miller Prairie", "city": "Kentton", "state": "Tennessee", "cap": 43694}}
+{"_id": {"$oid": "673ef5fd8c19f571e2001234"}, "description": "Ax", "serial_number": "84d9bd48-5ca1-493b-8014-8dc15c6804e4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8d5e957f29001234"}, "description": "Ax", "serial_number": "47e00c98-9812-4ae6-8256-7256c88f9fd7", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8e296a067a001234"}, "description": "Knife", "serial_number": "a2f479cb-31f1-4001-abfb-0b1b7a4878f5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8f121ce07d001234"}, "description": "Hammer", "serial_number": "fb636e60-526e-4a9f-b6b8-1f861a87b473", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8f14e45fce001234"}, "description": "Ax", "serial_number": "6497d354-d1de-49c7-a47d-85086cb90f3e", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8f53295a73001234"}, "description": "Ax", "serial_number": "3f55f634-ee0f-408d-a81e-67c8d980edc1", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd8f85517967001234"}, "description": "Knife", "serial_number": "49614d3f-1a29-4382-8381-f1525c73daea", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd903ce9225f001234"}, "description": "Ax", "serial_number": "1c44a68d-1533-46e8-b660-151ca273f2df", "owner": null, "related_to": [{"$oid": "673ef5fd1d7f7abc18001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9188905e74001234"}, "description": "Gun", "serial_number": "c5ee6e51-d01b-4af1-a01f-db4623b00e81", "owner": null, "related_to": [{"$oid": "673ef5fda9a6653e48001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd92c8c96e4c001234"}, "description": "Hammer", "serial_number": "c2fa5116-b5d6-48a0-b7d4-92852ad41775", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd92cc227532001234"}, "description": "Knife", "serial_number": "35304a4a-0ac7-481f-8371-0d8ad6b49a76", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd93db85ed90001234"}, "description": "Ax", "serial_number": "0dca1616-8744-4f8e-8dcc-d024a72b3934", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd96da2f590c001234"}, "description": "Gun", "serial_number": "02c8f1f0-b2f8-4b31-9585-2c29d4c0f0b2", "owner": null, "related_to": [{"$oid": "673ef5fdff4d5fbbaf001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9766527f2b001234"}, "description": "Ax", "serial_number": "94d40be3-2e48-4578-ac2e-9c6b3b0f3c4e", "owner": null, "related_to": [{"$oid": "673ef5fd6f4922f455001234"}], "founded_in": {"street_name": "Harris Union", "city": "East Donna", "state": "Arkansas", "cap": 68833}}
+{"_id": {"$oid": "673ef5fd9778d5d219001234"}, "description": "Knife", "serial_number": "1139cdb6-ade7-488b-911c-7793bff75b19", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd979d472a84001234"}, "description": "Gun", "serial_number": "08dd2896-ee73-422f-a7a5-31c23e84b921", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9872ed9fc2001234"}, "description": "Hammer", "serial_number": "c50b26d8-138d-4933-ac20-1ebd28353117", "owner": null, "related_to": [{"$oid": "673ef5fd85422afb46001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd98dce83da5001234"}, "description": "Gun", "serial_number": "ea62351f-8c86-4b9d-82ae-5e3db0c8a6a9", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd98f1370821001234"}, "description": "Ax", "serial_number": "7fea61e7-115f-4180-b923-2b2f98fa3eb7", "owner": null, "related_to": [{"$oid": "673ef5fdf2217062e9001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9a1158154d001234"}, "description": "Hammer", "serial_number": "490510c6-b5cc-453a-acaa-52236c391af4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9b04d15284001234"}, "description": "Ax", "serial_number": "382c1c06-3304-42b2-86fd-57df9cdaa6ef", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9b8619251a001234"}, "description": "Hammer", "serial_number": "f574806e-2cd1-4f75-a5d5-5ecc481a6e70", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9bf31c7ff0001234"}, "description": "Gun", "serial_number": "09058c2a-e35b-4a7a-91f9-4ef5a7e03fb4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9cfdf10e8f001234"}, "description": "Ax", "serial_number": "4aa28d38-1926-448f-bd76-eb0bd2ae000d", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9dcb88e013001234"}, "description": "Ax", "serial_number": "42210b72-8e08-4a71-95fe-a86824d99124", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9f61408e3a001234"}, "description": "Hammer", "serial_number": "3be4b6d1-bdf0-4ee3-9f6d-886c9b7e0b53", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fd9fc3d7152b001234"}, "description": "Hammer", "serial_number": "57aca8ee-e09e-4045-9e05-abb770c07dc5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda0a080f42e001234"}, "description": "Gun", "serial_number": "b95a1a4c-14f2-4380-a063-12378ad26dd5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda1d0c6e83f001234"}, "description": "Knife", "serial_number": "c7ac715e-da7a-49c3-ae41-6f730ce46187", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda2557a7b2e001234"}, "description": "Hammer", "serial_number": "d6454e62-82d3-4a3f-bcd5-c03ca4612b35", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda3c65c2974001234"}, "description": "Gun", "serial_number": "adccc487-c170-4d09-b4b2-54d75e9caff3", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda3f390d88e001234"}, "description": "Hammer", "serial_number": "51d6576c-f568-49a6-bdfa-bb622339d724", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda4a042cf4f001234"}, "description": "Ax", "serial_number": "6189cbbf-09a7-49bc-9190-76bd835943f2", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda4f23670e1001234"}, "description": "Hammer", "serial_number": "ff028c45-7fd1-4df8-ae63-f4df6a0b2c92", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda5771bce93001234"}, "description": "Knife", "serial_number": "6b660a56-ff81-4ccc-9cf1-a4ed9a273c1b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda597e50502001234"}, "description": "Knife", "serial_number": "94b9b03c-9153-4b76-861b-cc69ed26e187", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda5bfc9e079001234"}, "description": "Ax", "serial_number": "05784dd6-1180-405b-bd74-3ba082b06538", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda5e0013237001234"}, "description": "Knife", "serial_number": "f2d41b95-a485-4d7f-a2df-ab91574dd9a4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda684eceee7001234"}, "description": "Hammer", "serial_number": "1272a805-d5ce-45a9-b06a-7c707651a9a7", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda87ff679a2001234"}, "description": "Gun", "serial_number": "8a4bede6-7134-4343-b422-f41b0ae503df", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda8baa56554001234"}, "description": "Knife", "serial_number": "d8caeff4-aa81-4183-87b4-7196f4b656e6", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda8f15eda80001234"}, "description": "Gun", "serial_number": "52030816-ca15-484c-aa12-1d8b1119794e", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fda97da629b0001234"}, "description": "Ax", "serial_number": "53340af8-a2a2-4a21-b94b-2bc99d500cd0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdaab3238922001234"}, "description": "Ax", "serial_number": "e0aa6803-3d3a-443c-9f44-0d18ef9082a0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdac1dd209cb001234"}, "description": "Hammer", "serial_number": "dacdaa62-d86f-46eb-b314-c3a103813ef1", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdac627ab1cc001234"}, "description": "Ax", "serial_number": "cd3a8018-3b94-43f2-8581-1f04eeb1142d", "owner": {"$oid": "673ef5fb192fc044e7001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdad61ab1432001234"}, "description": "Hammer", "serial_number": "d387a2eb-087b-4634-b157-06a699206d74", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdb1a59b315f001234"}, "description": "Hammer", "serial_number": "7e349697-9345-4fc6-9154-d8a3c64f7e30", "owner": {"$oid": "673ef5fbc8ed21db4f001234"}, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdb1d10e7baf001234"}, "description": "Gun", "serial_number": "92339aa1-af3b-4c98-9680-3c8665aba21c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdb3e3e393c7001234"}, "description": "Gun", "serial_number": "6e09f571-ed73-4b2d-9bba-75adf36f742f", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdb53b3a3d6a001234"}, "description": "Knife", "serial_number": "f3943060-2bab-4532-b5a2-a28162c8110b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdb6d767d2f8001234"}, "description": "Gun", "serial_number": "42beb57c-341a-415c-b60f-93ae231bb5bd", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdb73ce398c3001234"}, "description": "Knife", "serial_number": "e4a305fb-f436-48dc-ba43-dc89dd7ebdac", "owner": null, "related_to": [], "founded_in": {"street_name": "Castro Estate", "city": "Salasville", "state": "New Hampshire", "cap": 32126}}
+{"_id": {"$oid": "673ef5fdbcbe3365e6001234"}, "description": "Ax", "serial_number": "a46b8b6a-3506-4eb5-b2be-b7b023bee0e3", "owner": null, "related_to": [{"$oid": "673ef5fdba2fd310dc001234"}, {"$oid": "673ef5fd3ad7c2ebb9001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdbd4c9ab730001234"}, "description": "Ax", "serial_number": "8f0f93ef-cc5f-4856-8455-3b3a49fe8d66", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdbd686fd640001234"}, "description": "Hammer", "serial_number": "c61fb74f-2a21-4513-b1c6-fa46344032fc", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdbe83ab3ecd001234"}, "description": "Ax", "serial_number": "95dce4d1-1087-4e28-b4b6-2196086f674e", "owner": null, "related_to": [{"$oid": "673ef5fd42998cf32d001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdbf8229696f001234"}, "description": "Gun", "serial_number": "217578c0-84c0-49a8-9e38-2bbaf308bed5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc0c7c76d30001234"}, "description": "Hammer", "serial_number": "2109324d-65ef-4abc-a28f-1622a35d8bbc", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc0e190d826001234"}, "description": "Hammer", "serial_number": "3cb5955a-2c8b-4066-9ed5-71a27b04ac4f", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc16a5320fa001234"}, "description": "Ax", "serial_number": "97bbe969-e601-47c2-8cad-450b57a949a0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc20ad4d76f001234"}, "description": "Hammer", "serial_number": "79f3957c-46e2-4c20-b6e7-0468a4a94002", "owner": null, "related_to": [{"$oid": "673ef5fda760880003001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc24cd76e1c001234"}, "description": "Hammer", "serial_number": "5b7e98f3-9e22-475f-b543-0afa54795a92", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc45147dee7001234"}, "description": "Ax", "serial_number": "eb62195c-9341-422e-8dd7-b1fba385aab0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc4ca4238a0001234"}, "description": "Gun", "serial_number": "ec39667f-51ac-4cfb-a727-84283f09ad94", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc51ce410c1001234"}, "description": "Knife", "serial_number": "d242324a-fbf6-4207-832e-3c3a9bd45ab6", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc52f1bd66c001234"}, "description": "Hammer", "serial_number": "f783bf88-ef7a-4557-8469-ff0f76e16b61", "owner": null, "related_to": [{"$oid": "673ef5fde8c0653fea001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc74d97b01e001234"}, "description": "Hammer", "serial_number": "6a21e05c-06ac-469b-8418-97ab2a7734a2", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc7e1249ffc001234"}, "description": "Hammer", "serial_number": "b962fe69-69ed-494e-8f2a-af5efc90a2e5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc81e728d9d001234"}, "description": "Knife", "serial_number": "a81b7f18-ca92-4611-b83b-805ef515bf62", "owner": null, "related_to": [{"$oid": "673ef5fde4da3b7fbb001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc8ffe9a587001234"}, "description": "Ax", "serial_number": "5a9becc9-c0cd-49b6-b885-bacf584a12f8", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc9e1074f5b001234"}, "description": "Gun", "serial_number": "c381899b-ced2-4526-8f95-f2b403070ea4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdc9f0f895fb001234"}, "description": "Knife", "serial_number": "3b5ccedc-2a5a-4158-83ae-67448132c3ce", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdca46c1b951001234"}, "description": "Ax", "serial_number": "e79ad76f-764e-45a4-8876-13419c2a22fa", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdcb70ab3756001234"}, "description": "Hammer", "serial_number": "b0e79ac8-5b16-4507-8476-5017d02a7af5", "owner": null, "related_to": [{"$oid": "673ef5fd2a38a4a931001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdcedebb6e87001234"}, "description": "Hammer", "serial_number": "b3237689-a8bd-421f-945f-49a2928aeadc", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdcfa0860e83001234"}, "description": "Ax", "serial_number": "47e562c6-8023-4561-be99-15effbd648c7", "owner": null, "related_to": [{"$oid": "673ef5fdbbcbff5c1f001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdcfcd208495001234"}, "description": "Knife", "serial_number": "59b4b4c5-a62b-4c32-ad22-32abfa08003c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdcfecdb276f001234"}, "description": "Ax", "serial_number": "7c8e5f29-71aa-470d-9765-2471a8897d46", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd09bf41544001234"}, "description": "Ax", "serial_number": "704e285d-cfe4-451a-894d-5008c82b3bf0", "owner": null, "related_to": [{"$oid": "673ef5fdbbcbff5c1f001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd1c38a09ac001234"}, "description": "Hammer", "serial_number": "fd18fb5a-694c-4b1f-8568-3c593b3c53e2", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd1f491a404001234"}, "description": "Ax", "serial_number": "5e0122d2-3db4-414b-b63e-eab6862e9726", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd1fe173d08001234"}, "description": "Gun", "serial_number": "a97d80b6-4f79-4cf9-9db9-c326ae9f86de", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd2ddea18f0001234"}, "description": "Knife", "serial_number": "85333049-d2c1-42c0-84db-1abcb6f99184", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd395771085001234"}, "description": "Ax", "serial_number": "a7e4421c-e6d7-453e-ac4e-8bbbb1f9c56a", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd3d9446802001234"}, "description": "Ax", "serial_number": "7726576a-1f4d-4d19-9b3c-6a5b6312d309", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd645920e39001234"}, "description": "Ax", "serial_number": "8aa1c77a-ecba-43d7-adcb-63804c177f8b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd67d8ab4f4001234"}, "description": "Knife", "serial_number": "da3cbfd6-9ad9-464f-9a21-4f50e70c92ee", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd6baf65e0b001234"}, "description": "Hammer", "serial_number": "c3d80da8-3898-45a9-b85a-445779034b10", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd82c8d1619001234"}, "description": "Hammer", "serial_number": "cbe7fc4d-e7db-4cae-a210-24ceface0bf6", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd947bf06a8001234"}, "description": "Hammer", "serial_number": "5591250e-df52-48bb-8ae5-d9dc6a867e36", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd96409bf89001234"}, "description": "Knife", "serial_number": "a51d0c4e-f87f-4378-b767-926342040f0d", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdd9d4f495e8001234"}, "description": "Knife", "serial_number": "58170761-dd1e-4e8d-8c8e-c88841f78ccf", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdda4fb5c6e9001234"}, "description": "Knife", "serial_number": "4a894201-2b6b-4d6b-956e-cc2b480c585b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fddb8e1af0cb001234"}, "description": "Gun", "serial_number": "f3ae7307-db89-4c04-a10d-89d67edc7118", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde00da03b68001234"}, "description": "Hammer", "serial_number": "628488bb-c001-42d8-aa73-dabc4e07b5fd", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde165421110001234"}, "description": "Knife", "serial_number": "1c1ee2bb-c0e8-4d70-b29b-4a38ecafb5bd", "owner": null, "related_to": [{"$oid": "673ef5fd63dc7ed101001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde2c0be2456001234"}, "description": "Ax", "serial_number": "f86f7c6a-c1f6-40f3-8872-75ad0cfdce72", "owner": null, "related_to": [], "founded_in": {"street_name": "Wade Ridges", "city": "New Elizabeth", "state": "Massachusetts", "cap": 91453}}
+{"_id": {"$oid": "673ef5fde2c420d928001234"}, "description": "Hammer", "serial_number": "6a4eef32-bc6d-4f90-bf8c-6ffed13517df", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde2ef524fbf001234"}, "description": "Knife", "serial_number": "751614b6-f0fd-459e-922f-a65b837c9e7c", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde369853df7001234"}, "description": "Gun", "serial_number": "c32b1e8f-8b1e-48c1-aeec-bc8ddf1801ca", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde4a6222cdb001234"}, "description": "Gun", "serial_number": "13e8f409-1243-43c8-a40e-652c04ab3d79", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde4da3b7fbb001234"}, "description": "Ax", "serial_number": "1a545b73-0496-415f-bbce-fa63b83af962", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde56954b4f6001234"}, "description": "Knife", "serial_number": "5c8ee142-b7fd-4b50-9fd8-bc65cba0aca4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fde96ed478da001234"}, "description": "Knife", "serial_number": "c48a973e-9d63-4052-81f5-72d085cd78bf", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdea5d2f1c46001234"}, "description": "Ax", "serial_number": "cf1fccf5-0f61-4936-b800-fb085769548e", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdeae27d77ca001234"}, "description": "Ax", "serial_number": "aab4d3e5-f05f-4783-b1de-ea795984bee4", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdeb160de1de001234"}, "description": "Gun", "serial_number": "d0eeddf8-0fdf-42fd-a415-54d66aef6b6f", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdeb16372791001234"}, "description": "Knife", "serial_number": "afc0d9f6-daf8-4d88-b75d-18307c794214", "owner": null, "related_to": [], "founded_in": {"street_name": "Eddie Centers", "city": "West Heather", "state": "Nevada", "cap": 71157}}
+{"_id": {"$oid": "673ef5fdec5decca5e001234"}, "description": "Gun", "serial_number": "c7ceb6d4-aa6e-4d01-bc1f-e0ad832e164b", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdec8956637a001234"}, "description": "Gun", "serial_number": "5cef9d1b-b160-4780-a3f7-d4c59ab03cca", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdec8ce6abb3001234"}, "description": "Knife", "serial_number": "24065d6f-ae70-4240-a408-08b8872d7f31", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdeccbc87e4b001234"}, "description": "Hammer", "serial_number": "a8a2332e-7767-4307-9671-f709e55597c0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fded3d2c2199001234"}, "description": "Knife", "serial_number": "724a7f71-4d16-45d7-806a-742109aff142", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdeda80a3d5b001234"}, "description": "Gun", "serial_number": "e678c39b-ed75-4876-8e78-17da64b10f32", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdeecca5b636001234"}, "description": "Knife", "serial_number": "50b8258d-5e5c-4c1e-8b28-1af26f9292f3", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf033ab37c3001234"}, "description": "Ax", "serial_number": "a381b021-600d-442a-8c66-e6a1c65db1d6", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf0935e4cd5001234"}, "description": "Ax", "serial_number": "2181d91c-84e3-4ad7-b955-8243ccde6b09", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf2217062e9001234"}, "description": "Knife", "serial_number": "181a5601-563f-485f-a624-31374f6243e5", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf340f1b1f6001234"}, "description": "Gun", "serial_number": "5b6dff7a-8656-456e-bec8-04dc3bb60f04", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf457c545a9001234"}, "description": "Ax", "serial_number": "8862c544-ed65-410e-b7ed-ed947da54d6a", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf4b9ec30ad001234"}, "description": "Gun", "serial_number": "f680b4df-49d7-4590-b907-3348894cd7e0", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf7177163c8001234"}, "description": "Ax", "serial_number": "7a17bd1e-f96d-4f84-a432-3d3f82cb74a3", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf718499c1c001234"}, "description": "Knife", "serial_number": "d6eed50f-ca68-4102-a922-3406ec96be42", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf7664060cc001234"}, "description": "Knife", "serial_number": "53479c01-eb75-4d13-a20a-d5f617d3d490", "owner": null, "related_to": [{"$oid": "673ef5fd9f61408e3a001234"}], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf7e6c85504001234"}, "description": "Gun", "serial_number": "92584244-7e50-49c6-8d9d-170b90788525", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdf899139df5001234"}, "description": "Gun", "serial_number": "7442c1b7-0b70-43cb-96a4-bd0ea19b796f", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdfa7cdfad1a001234"}, "description": "Knife", "serial_number": "5abc737a-8cfa-4dce-adeb-00ddf6655a15", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdfbd7939d67001234"}, "description": "Gun", "serial_number": "fd20f0ca-d1f4-4e29-bb1b-fed2c6c1c508", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdfc22130974001234"}, "description": "Hammer", "serial_number": "fafdc6b3-de2b-4d97-b8b5-b19f334ea4c6", "owner": null, "related_to": [], "founded_in": {"street_name": "Jennifer Shoals", "city": "New Jennifer", "state": "Maryland", "cap": 57963}}
+{"_id": {"$oid": "673ef5fdfc490ca45c001234"}, "description": "Hammer", "serial_number": "c91d6035-5048-4178-a6b1-7228fef4ba79", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdfe131d7f5a001234"}, "description": "Ax", "serial_number": "f3e03481-e130-482d-9f6d-4ebab243fd10", "owner": null, "related_to": [], "founded_in": {}}
+{"_id": {"$oid": "673ef5fdfe9fc289c3001234"}, "description": "Hammer", "serial_number": "37fbfdf1-3b77-4028-b1f4-86475fe5db23", "owner": null, "related_to": [], "founded_in": {}}
